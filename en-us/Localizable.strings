@@ -209,8 +209,8 @@
 "EMAIL_SUBJECT"                                         = "Marvin for iOS";
 
 // Careful: the following are HTML fragments.
-"EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Sent via <a href='http://www.marvinapp.com?src=appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author.
-"EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Sent via <a href='http://www.marvinapp.com?src=appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
+"EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author.
+"EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
 
 // ********************************************************************************
 // MESSAGE BOXES
@@ -309,7 +309,7 @@
 "TWITTER_CHOOSE_ACCOUNT_TITLE"                          = "Choose a Twitter account…";
 "TWITTER_FOLLOW_FROM"                                   = "Follow @appstafarian from";
 "TWITTER_FOLLOW_ERROR"                                  = "Sorry, something when wrong. Please check that your internet connection is OK and that Twitter access is allowed from your device settings.";
-"TWITTER_FOLLOW_SUCCESS"                                = "Thank you for following Marvin!";
+"TWITTER_FOLLOW_SUCCESS"                                = "Thank you for following @Appstafarian!";
 "TWITTER_APPEND_VIA"                                    = "via @marvinreader"; 
 "TWITTER_CANNOT_SEND_TWEET"                             = "Cannot send tweet. Make sure your Twitter account is set in your device’s settings."; 
 
