@@ -1681,6 +1681,7 @@
 "DROPBOX_MENU_SORT_OLDEST"                              = "Date, oldest";
 "DROPBOX_MENU_SORT_BIGGEST"                             = "File size, largest";
 "DROPBOX_MENU_SORT_SMALLEST"                            = "File size, smallest";
+"DROPBOX_MENU_SORT_DOWNLOADED"                          = "Downloaded at the end";
 
 // Open Dropbox app download.
 "DROPBOX_MENU_OPEN_APP_TITLE"                           = "Dropbox";
