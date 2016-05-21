@@ -438,7 +438,7 @@
 "SPLASH_GET_STARTUP_PASSWORD_TITLE"                     = "Startup password";
 "SPLASH_GET_STARTUP_PASSWORD_MESSAGE"                   = "Enter your startup password.";
 
-"SPLASH_GET_STARTUP_USE_TOUCH_ID"                       = "Unlock Marvin using Touch ID. Tap ‘cancel’ if you want to enter your password manually.";
+"SPLASH_GET_STARTUP_USE_TOUCH_ID"                       = "Unlock Marvin using Touch ID. Tap ‘Cancel’ if you want to enter your password manually.";
 
 "SPLASH_GET_STARTUP_PASSWORD_INCORRECT"                 = "Incorrect password. Try again.";
 
