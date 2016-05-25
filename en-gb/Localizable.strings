@@ -155,7 +155,7 @@
 "MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 file couldn’t be imported because it is damaged or encrypted.";
 "MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu files couldn’t be imported because they are damaged or encrypted.";
 
-"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu file(s) couldn’t be imported because they are damaged or encrypted. Consider removing them from this device not to see this error again.";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu file(s) couldn’t be imported because they are damaged or encrypted. Consider removing them from this device not to see this error again. A list of failed files has been saved in /Documents/Logs/failed.txt";
 
 "MSGBOX_NO_APP_FOR_URL"                                 = "You don’t have any app installed that can execute this command.";
 "MSGBOX_NO_APP_FOR_DOCUMENT"                            = "You don’t have any app installed that can open a document of this type.";
@@ -483,6 +483,12 @@
 "HOME_ADDED_ON_DATE"                                    = "Added on %@"; // Placeholder. E.g. "Added on 26/Nov/2015"
 "HOME_ADDED_DESCRIPTION"                                = "Added %@"; // Placeholder. E.g. "Added today"
 
+// Short word counts.
+"HOME_WORD_COUNT_LESS_THOUSAND"                         = "%i words"; // %i = word count.
+"HOME_WORD_COUNT_FEW_THOUSANDS"                         = "%.1fk words"; // %.1f = thousands word count to 1 decimal place - note the k for kilo.
+"HOME_WORD_COUNT_THOUSANDS"                             = "%.0fk words"; // %.0f = thousands word count to 0 decimal places - note the k for kilo.
+"HOME_WORD_COUNT_MILLIONS"                              = "%.2fM words"; // %.0f = millions word count to 2 decimal places - note the m for million.
+
 // The history menu that shows when you tap the clock icon in the top header.
 "HOME_HISTORY_MENU_TITLE"                               = "Continue reading";
 "HOME_HISTORY_MENU_TIP"                                 = "You can change the number of books shown here from general settings.";
@@ -590,6 +596,7 @@
 // The message shown after the auto detector imported and processed books.
 "HOME_DOCUMENTS_IMPORT_COMPLETE"                        = "%lu file(s) were imported.";
 "HOME_DOCUMENTS_IMPORT_COMPLETE_FAIL"                   = "%lu file(s) imported, %lu file(s) failed because they are invalid or encrypted. The files that couldn’t be imported were deleted from your documents directory.";
+"HOME_DOCUMENTS_IMPORT_COMPLETE_FAIL_BIG"               = "%lu file(s) imported, %lu file(s) failed because they are invalid or encrypted, %lu file(s) were skipped because they are too large and you have ‘enormous’ files disabled in general settings. The files that couldn’t be imported were deleted from your documents directory.";
 
 // The error and actions shown of the user disabled all menu items from showing (from general settings).
 "HOME_MAIN_MENU_IS_EMPTY"                               = "You disabled all items from showing in this menu. Go the general settings to enable the home screen items you’d like to see.";
@@ -866,11 +873,17 @@
 "SHARE_BOOK_ANNOTATION_EPUB_TITLE"                      = "Annotations (EPUB)";
 "SHARE_BOOK_ANNOTATION_EPUB_TIP"                        = "Save annotations as an EPUB book and send them to another app or device.";
 
+"SHARE_BOOK_ANNOTATION_CSV_TITLE"                       = "Annotations (CSV)";
+"SHARE_BOOK_ANNOTATION_CSV_TIP"                         = "Save annotations to a CSV file and send them to another app or device. Photos will not be exported.";
+
 "SHARE_BOOK_VOCABULARY_TXT_TITLE"                       = "Vocabulary";
 "SHARE_BOOK_VOCABULARY_TXT_TIP"                         = "Share a text file containing all the vocabulary collected for this book.";
 
 "SHARE_BOOK_EPUB_EXPORT_EMPTY"                          = "You haven’t created any journal entries or annotations that can be exported to an EPUB journal.";
 "SHARE_BOOK_EPUB_EXPORT_CONFIRM"                        = "Export all your journal entries and annotations to an EPUB journal now? This may take a while if you have lots of entries to export."; // Placeholder.
+
+"SHARE_BOOK_CSV_EXPORT_EMPTY"                           = "You haven’t created any journal entries or annotations that can be exported to a CSV file.";
+"SHARE_BOOK_CSV_EXPORT_CONFIRM"                         = "Export all your journal entries and annotations to a CSV now? This may take a while if you have lots of entries to export."; // Placeholder.
 
 "SHARE_BOOK_PDF_EXPORT_EMPTY"                           = "You haven’t created any journal entries or annotations that can be exported to a PDF journal.";
 "SHARE_BOOK_PDF_EXPORT_CONFIRM"                         = "Export all your journal entries and annotations to a PDF journal now (about %@)? This may take a while if you have lots of entries to export."; // Placeholder.
@@ -1053,6 +1066,7 @@
 "GENERAL_SETTINGS_CELL_SLEEP_WHILE_READING"             = "Can sleep while reading";
 "GENERAL_SETTINGS_CELL_AUTO_HIDE_BOOK_TOOLBARS"         = "Auto-hide book toolbars";
 "GENERAL_SETTINGS_CELL_AUTO_BOOKMARKS"                  = "Auto-bookmark on close";
+"GENERAL_SETTINGS_CELL_SLIDE_OVER_PROTECTION"           = "Slide over protection";
 "GENERAL_SETTINGS_CELL_SESSION_TIME_ON_CLOSE"           = "Show session time on close";
 "GENERAL_SETTINGS_CELL_PINCH_IN_LIBRARY"                = "Pinch gestures in library";
 "GENERAL_SETTINGS_CELL_LIBRARY_LIST_INFO_LINE"          = "List info line";
@@ -1604,6 +1618,8 @@
 // Careful about \n escapes in the following:
 "CUSTOM_COMMAND_EDITOR_TIP"                             = "Command placeholders include: {text} - the selected text, {define} - the selected text that will also be added to your vocabulary, {title} - the title of the book, {author} - the author(s) of the book, {chapter} - the name of the current chapter.";
 
+"CUSTOM_COMMAND_EDITOR_TEST"                            = "Test a URL command";
+"CUSTOM_COMMAND_EDITOR_TEST_BUILT_IN"                   = "This is a built-in custom command and doesn't need testing.";
 "CUSTOM_COMMAND_EDITOR_PRESET"                          = "Get started with a preset…";
 
 // ********************************************************************************
@@ -1757,7 +1773,7 @@
 "OPDS_MENU_REVEAL_FORMATS_TIP"                          = "EPUB, CBR, and CBZ books will be added to your library. Marvin can download books in other formats and will offer to open them in another app for you.";
 
 // Messages related to multiple download completion.
-"OPDS_MULTI_DOWNLOAD_SUCCESS"                           = "%lu file(s) where downloaded and added to your library.";
+"OPDS_MULTI_DOWNLOAD_SUCCESS"                           = "%lu file(s) were downloaded and added to your library.";
 "OPDS_MULTI_DOWNLOAD_FAILED"                            = "%lu file(s) imported.\n%lu file(s) are either already in your library, too big, damaged or encrypted, or their download failed.";
 
 // The message box shown to enter credentials for auto-opds fuctionality.
@@ -1873,6 +1889,7 @@
 "JOURNAL_MENU_SHARE_TIP"                                = "Exports entries that are currently visible (filter text is also honored). Export to EPUB will create journal and add it to your library.";
 "JOURNAL_MENU_SHARE_EPUB"                               = "Export to an EPUB";
 "JOURNAL_MENU_SHARE_PDF"                                = "Create a PDF";
+"JOURNAL_MENU_SHARE_CSV"                                = "Create a CSV file";
 
 // The map menu.
 "JOURNAL_MENU_READING_MAP_TITLE"                        = "Reading map";
@@ -1932,6 +1949,11 @@
 "JOURNAL_EPUB_EXPORT_ERROR"                             = "An error occured creating an EPUB from your journal. Make sure you have enough free space on your device.";
 "JOURNAL_EPUB_EXPORT_CONFIRM"                           = "Export all your visible entries to an EPUB journal now? This may take a while if you have lots of entries to export.";
 
+// Export CSV messages.
+"JOURNAL_CSV_EXPORT_EMPTY"                              = "You don’t have any visible entries that can be exported to a CSV file.";
+"JOURNAL_CSV_EXPORT_ERROR"                              = "An error occured creating a CSV file from your journal. Make sure you have enough free space on your device.";
+"JOURNAL_CSV_EXPORT_CONFIRM"                            = "Export all your visible entries to a CSV file now? This may take a while if you have lots of entries to export.";
+
 // Export PDF messages.
 "JOURNAL_PDF_EXPORT_EMPTY"                              = "You don’t have any visible entries that can be exported to a PDF journal.";
 "JOURNAL_PDF_EXPORT_ERROR"                              = "An error occured creating a PDF from your journal. Make sure you have enough free space on your device.";
@@ -1980,6 +2002,10 @@
 "ENTRY_EDITOR_GEOTAG_TURN_OFF_AUTO"                     = "Turn automatic geotagging off";
 "ENTRY_EDITOR_GEOTAG_ERROR"                             = "An error occured determining your current location. Marvin probably doesn’t have location service permissions.";
 "ENTRY_EDITOR_GEOTAG_CONNECTION_ERROR"                  = "An error occured determining your current location. Are you connected to the internet?";
+
+// Paste highlight menu.
+"ENTRY_EDITOR_PASTE_HIGHLIGHT"                          = "Paste highlight";
+"ENTRY_EDITOR_PASTE_HIGHLIGHT_WITH_QUOTE_MARKS"         = "Paste highlight w/quote";
 
 // ********************************************************************************
 // FULL SCREEN ENTRY SCREEN (FullScreenEntryViewController)
@@ -2266,8 +2292,6 @@
 // ********************************************************************************
 
 "FIRST_OCCURRENCE_TITLE"                                = "1st occurrences of %@"; // %@ character name.
-"FIRST_OCCURRENCE_SHARE_BUTTON"                         = "Share";
-"FIRST_OCCURRENCE_WEB_SEARCH_BUTTON"                    = "Web search";
 
 // ********************************************************************************
 // SUMMARY BUILDER MENU SCREEN (iCloudSyncMenuViewController)
@@ -2329,7 +2353,7 @@
 "EPUB_PAGINATION_MENU_ORIENTATION_ROTATE"               = "Allow device rotation";
 "EPUB_PAGINATION_MENU_ORIENTATION_PORTRAIT"             = "Lock portrait";
 "EPUB_PAGINATION_MENU_ORIENTATION_LANDSCAPE"            = "Lock landscape";
-"EPUB_PAGINATION_MENU_ORIENTATION_TIP"                  = "In-app orientation lock is not supported on devices with Split View functionality (e.g. newer iPads). On supported devices, you may need to rotate your device for orientation settings to take effect.";
+"EPUB_PAGINATION_MENU_ORIENTATION_TIP"                  = "In-app orientation lock is not supported on devices with Split View or Slide Over functionality (e.g. newer iPads). On supported devices, you may need to rotate your device for orientation settings to take effect.";
 
 "EPUB_PAGINATION_MENU_PAGE_LAYOUT_HEADER"               = "Page layout";
 "EPUB_PAGINATION_MENU_PAGE_LAYOUT_PAGINATION"           = "Paginate";
@@ -2402,6 +2426,9 @@
 "EPUB_WARMTH_MENU_WARMTH_NORMAL"                        = "Normal";
 "EPUB_WARMTH_MENU_WARMTH_HOT"                           = "Hot";
 "EPUB_WARMTH_MENU_WARMTH_TIP"                           = "Warmth reduces screen harshness for more comfortable nighttime reading. Marvin will remember your extra dimming and warmth setting for this preset.";
+"EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_HEADER"          = "Fast theme switching";
+"EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_INCLUDE"         = "Include";
+"EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_TIP"             = "Whether this preset is included in the fast theme switching cycle.";
 
 // ********************************************************************************
 // READING TIMER MENU (ReadingTimerViewController)
@@ -2596,7 +2623,7 @@
 "CBX_PAGINATION_MENU_ORIENTATION_ROTATE"                = "Allow device rotation";
 "CBX_PAGINATION_MENU_ORIENTATION_PORTRAIT"              = "Lock portrait";
 "CBX_PAGINATION_MENU_ORIENTATION_LANDSCAPE"             = "Lock landscape";
-"CBX_PAGINATION_MENU_ORIENTATION_TIP"                   = "In-app orientation lock is NOT supported on devices with Split View functionality (e.g. iPad Air 2). On supported devices, you may need to rotate your device for orientation settings to take effect.";
+"CBX_PAGINATION_MENU_ORIENTATION_TIP"                   = "In-app orientation lock is NOT supported on devices with Split View or Slide Over functionality (e.g. iPad Air 2). On supported devices, you may need to rotate your device for orientation settings to take effect.";
 
 // ********************************************************************************
 // CBx COLOURS SUB MENU (cbxColourMenuViewController)
@@ -2624,12 +2651,17 @@
 
 "CBX_WARMTH_MENU_BRIGHTNESS_HEADER"                     = "Brightness";
 "CBX_WARMTH_MENU_EXTRA_DIMMING"                         = "Extra dimming";
+
 "CBX_WARMTH_MENU_WARMTH_HEADER"                         = "Screen warmth";
 "CBX_WARMTH_MENU_WARMTH_OFF"                            = "Off/Disable";
 "CBX_WARMTH_MENU_WARMTH_SLIGHTLY"                       = "Slightly";
 "CBX_WARMTH_MENU_WARMTH_NORMAL"                         = "Normal";
 "CBX_WARMTH_MENU_WARMTH_HOT"                            = "Hot";
 "CBX_WARMTH_MENU_WARMTH_TIP"                            = "Warmth reduces screen harshness for more comfortable nighttime reading. Marvin will remember your extra dimming and warmth setting for this preset.";
+
+"CBX_WARMTH_MENU_FAST_THEME_SWITCHING_HEADER"           = "Fast theme switching";
+"CBX_WARMTH_MENU_FAST_THEME_SWITCHING_INCLUDE"          = "Include";
+"CBX_WARMTH_MENU_FAST_THEME_SWITCHING_TIP"              = "Whether this preset is included in the fast theme switching cycle.";
 
 // ********************************************************************************
 // END OF BOOK SCREEN (EndOfBookActionsViewController)
@@ -2727,6 +2759,7 @@
 "KARAOKE_OPTIONS_MENU_WORDS_PER_LINE"                   = "Words per line: %lu"; // %lu = words per line.
 "KARAOKE_OPTIONS_MENU_LARGE_TEXT"                       = "Large text";
 "KARAOKE_OPTIONS_MENU_SENTENCE_PAUSE"                   = "Pause for sentences";
+"KARAOKE_OPTIONS_MENU_PUNCTUATION_PAUSE"                = "Pause for punctuation";
 "KARAOKE_OPTIONS_MENU_LONG_WORD_PAUSE"                  = "Pause for long words";
 "KARAOKE_OPTIONS_MENU_COLOURIZE_FIRST_LETTER"           = "Colorise first letter";
 
