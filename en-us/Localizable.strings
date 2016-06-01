@@ -165,7 +165,7 @@
 "MSGBOX_BOOK_IMPORTED"                                  = "A book was added to your library.";
 "MSGBOX_BOOK_IMPORT_FAILED"                             = "Your book couldn’t be imported because it is damaged or encrypted.";
 "MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Your book couldn’t be imported because the file is too large and you have ‘large file skipping’ enabled in settings.";
-"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "The document you selected isn’t supported.";
+"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin doesn’t support this kind of document (%@)."; // Document type.
 
 "UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "Untitled section %lu"; // %lu = section number.
 "UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "Untitled section";
@@ -193,13 +193,21 @@
 "TITLE_SORT_PREFIXES_ES"                                = ""; // Comma separated - NO SPACES!
 // and so on...
 
-// Suffix contractions for dictionary normalisation…
+// Suffix and prefix contractions for dictionary normalisation.
 // Would've --> Would
 "SUFFIX_CONTRACTIONS_EN"                                = "'m,'ve,'d,'ll,'s,'re,'ve,'em"; // Comma separated - NO SPACES! - Do not include 't because it is too complex for a simple rule can't/weren't case.
 "SUFFIX_CONTRACTIONS_DE"                                = ""; // Comma separated - NO SPACES!
 "SUFFIX_CONTRACTIONS_IT"                                = ""; // Comma separated - NO SPACES!
 "SUFFIX_CONTRACTIONS_FR"                                = ""; // Comma separated - NO SPACES!
 "SUFFIX_CONTRACTIONS_ES"                                = ""; // Comma separated - NO SPACES!
+
+// l'école --> école
+"PREFIX_CONTRACTIONS_EN"                                = ""; // Comma separated - NO SPACES!
+"PREFIX_CONTRACTIONS_DE"                                = ""; // Comma separated - NO SPACES!
+"PREFIX_CONTRACTIONS_IT"                                = ""; // Comma separated - NO SPACES!
+"PREFIX_CONTRACTIONS_FR"                                = "c',d',j',l',m',n',qu',s',t'"; // Comma separated - NO SPACES!
+"PREFIX_CONTRACTIONS_ES"                                = ""; // Comma separated - NO SPACES!
+
 
 // ********************************************************************************
 // EMAIL
@@ -254,7 +262,6 @@
 "KEYBOARD_SHORTCUT_TAKE_A_PHOTO"                        = "Take a photo";
 "KEYBOARD_SHORTCUT_LAST_PHOTO_TAKEN"                    = "Last photo taken";
 "KEYBOARD_SHORTCUT_TAG_PICKER"                          = "Tag picker";
-"KEYBOARD_SHORTCUT_DATE_AND_LOCATION"                   = "Date and location";
 "KEYBOARD_SHORTCUT_GO_TO_CURRENT_LOCATION"              = "Go to current location";
 "KEYBOARD_SHORTCUT_FIT_VISIBLE_ENTRIES"                 = "Fit visible entries";
 "KEYBOARD_SHORTCUT_JOURNAL_AND_ANNOTATIONS"             = "Journal and annotations";
@@ -297,7 +304,7 @@
 // ********************************************************************************
 
 "PDF_TEMPLATE_ENTRY_BOOK_AUTHOR"                        = "%@ by %@"; // 1st %@ = book title, 2nd %@ = author.
-"PDF_TEMPLATE_ENTRY_NUMBERED_VOCABULARY"                = "%lu - Vocabulary"; //%lu = journal entry number
+"PDF_TEMPLATE_ENTRY_NUMBERED_VOCABULARY"                = "%lu – Vocabulary"; //%lu = journal entry number
 
 // ********************************************************************************
 // TWITTER
@@ -645,6 +652,7 @@
 "QUICK_LAUNCH_CONTINUE_READING_SECTION"                 = "Continue reading section";
 "QUICK_LAUNCH_VIEWING_MODE_SECTION"                     = "Viewing mode section";
 "QUICK_LAUNCH_MULTI_SELECT_SECTION"                     = "Multi-select section";
+"QUICK_LAUNCH_SETTINGS_SECTION"                         = "Settings section";
 "QUICK_LAUNCH_COLOURS_SECTION"                          = "Colors section";
 "QUICK_LAUNCH_COLLECTIONS_SECTION"                      = "Collections and lists section";
 "QUICK_LAUNCH_SORT_SECTION"                             = "Sorting section";
@@ -655,6 +663,7 @@
 "QUICK_LAUNCH_CONTINUE_READING_HEADER"                  = "Continue reading";
 "QUICK_LAUNCH_VIEWING_MODE_HEADER"                      = "Viewing mode";
 "QUICK_LAUNCH_MULTI_SELECT_HEADER"                      = "Multi-select";
+"QUICK_LAUNCH_SETTINGS_HEADER"                          = "Settings";
 "QUICK_LAUNCH_COLOURS_HEADER"                           = "Colors";
 "QUICK_LAUNCH_COLLECTIONS_HEADER"                       = "Collections and lists";
 "QUICK_LAUNCH_SORT_HEADER"                              = "Sorting";
@@ -1615,9 +1624,9 @@
 "CUSTOM_COMMAND_EDITOR_COMMAND_ENABLED"                 = "Enabled";
 
 // Careful about \n escapes in the following:
-"CUSTOM_COMMAND_EDITOR_TIP"                             = "Command placeholders include: {text} - the selected text, {define} - the selected text that will also be added to your vocabulary, {title} - the title of the book, {author} - the author(s) of the book, {chapter} - the name of the current chapter.";
+"CUSTOM_COMMAND_EDITOR_TIP"                             = "Command placeholders include: {text} – the selected text, {define} – the selected text that will also be added to your vocabulary, {title} – the title of the book, {author} – the author(s) of the book, {chapter} – the name of the current chapter.";
 
-"CUSTOM_COMMAND_EDITOR_TEST"                            = "Test a URL command";
+"CUSTOM_COMMAND_EDITOR_TEST"                            = "Test this command";
 "CUSTOM_COMMAND_EDITOR_TEST_BUILT_IN"                   = "This is a built-in custom command and doesn't need testing.";
 "CUSTOM_COMMAND_EDITOR_PRESET"                          = "Get started with a preset…";
 
@@ -1724,7 +1733,7 @@
 
 // The alert shown to the user when 'download' everything' is chosen.
 "DROPBOX_DOWNLOAD_EVERYTHING_ALREADY_IN_LIBRARY"        = "All the books in your Dropbox are already in your library.";
-"DROPBOX_DOWNLOAD_CONFIRM_TITLE"                        = "%lu file(s) - %@"; // Placeholder - file count and file size.
+"DROPBOX_DOWNLOAD_CONFIRM_TITLE"                        = "%lu file(s) – %@"; // Placeholder - file count and file size.
 "DROPBOX_DOWNLOAD_CONFIRM_MESSAGE"                      = "Are you sure you want to download everything to your library? This can take very long and use a lot of space on your device.";
 
 // ********************************************************************************
@@ -1734,6 +1743,11 @@
 // ********************************************************************************
 
 "OPDS_SCREEN_TITLE"                                     = "OPDS";
+
+// Back button.
+"OPDS_BACK_BUTTON_TIP"                                  = "Swipe the screen back to close rightway.";
+"OPDS_BACK_BUTTON_CLOSE"                                = "Close OPDS";
+"OPDS_BACK_BUTTON_HISTORY"                              = "Back one level";
 
 // Favourites button.
 "OPDS_FAVOURITES_BUTTON"                                = "Favorites";
@@ -1792,7 +1806,7 @@
 
 // Export favourites menu.
 "OPDS_MENU_FAVOURITES_TITLE"                            = "Share and sync";
-"OPDS_MENU_FAVOURITES_TIP"                              = "Create and send a file to Marvin on another device to exchange OPDS favorites with it. Password WILL NOT be exported - you’ll have to enter them manually after importing them on a different device.";
+"OPDS_MENU_FAVOURITES_TIP"                              = "Create and send a file to Marvin on another device to exchange OPDS favorites with it. Password WILL NOT be exported – you’ll have to enter them manually after importing them on a different device.";
 "OPDS_MENU_FAVOURITES_EXPORT"                           = "Export OPDS favorites";
 
 // ********************************************************************************
@@ -1966,6 +1980,8 @@
 // Access from: Home > Main menu > Annotations and journal > Add entry -or- slide to edit
 // ********************************************************************************
 
+"ENTRY_EDITOR_OPTIONS_BUTTON"                           = "Options";
+
 // Shown if the user presses the close button for a modified entry.
 "ENTRY_EDITOR_SAVE_CHANGES_TITLE"                       = "This entry has been modified…";
 "ENTRY_EDITORL_SAVE_CHANGES_SAVE"                       = "Save changes";
@@ -2003,8 +2019,9 @@
 "ENTRY_EDITOR_GEOTAG_CONNECTION_ERROR"                  = "An error occured determining your current location. Are you connected to the internet?";
 
 // Paste highlight menu.
+"ENTRY_EDITOR_PASTE_HIGHLIGHT_TITLE"                    = "Highlighted text";
 "ENTRY_EDITOR_PASTE_HIGHLIGHT"                          = "Paste highlight";
-"ENTRY_EDITOR_PASTE_HIGHLIGHT_WITH_QUOTE_MARKS"         = "Paste highlight w/quote";
+"ENTRY_EDITOR_PASTE_HIGHLIGHT_WITH_QUOTE_MARKS"         = "Paste highlight (quoted)";
 
 // ********************************************************************************
 // FULL SCREEN ENTRY SCREEN (FullScreenEntryViewController)
@@ -2177,12 +2194,12 @@
 
 "EPUB_BOOK_FOOTER_1_PAGE_LEFT_IN_CHAPTER"                   = "Last page in %@"; // %@ = chapter name.
 "EPUB_BOOK_FOOTER_X_PAGES_LEFT_IN_CHAPTER"                  = "%lu pages left in %@"; // %lu = pages left, %@ = chapter name.
-"EPUB_BOOK_FOOTER_PAGES_LEFT_AND_TOTAL"                     = "%lu - %lu"; // %lu = pages left, %@ = total pages.
+"EPUB_BOOK_FOOTER_PAGES_LEFT_AND_TOTAL"                     = "%lu – %lu"; // %lu = pages left, %@ = total pages.
 "EPUB_BOOK_FOOTER_PAGES_READ_AND_TOTAL"                     = "%lu of %lu"; // %lu = pages read, %@ = total pages.
 
 // Everything show pages read, total, left and percentage for chapter FOLLOWED by the same for whole book.
 // example: 3 of 5, 2 left, 67% - 45 of 546, 324 left, 33%
-"EPUB_BOOK_FOOTER_EVERYTHING"                               = "%lu of %lu, %lu left, %.0f%% - %lu of %lu, %lu left, %.0f%%"; // %lu = pages read in chapter, %lu = total pages in chapter, %lu = pages left in chapter, %lu = percent in chapter, %lu = pages read in book, %lu = total pages in book, %lu = pages left in book, %lu = percent in book.
+"EPUB_BOOK_FOOTER_EVERYTHING"                               = "%lu of %lu, %lu left, %.0f%% – %lu of %lu, %lu left, %.0f%%"; // %lu = pages read in chapter, %lu = total pages in chapter, %lu = pages left in chapter, %lu = percent in chapter, %lu = pages read in book, %lu = total pages in book, %lu = pages left in book, %lu = percent in book.
 "EPUB_BOOK_FOOTER_NOT_AVAILABLE"                            = "(not available)";
 "EPUB_BOOK_FOOTER_CALCULATING"                              = "(calculating…)";
 
@@ -2314,7 +2331,7 @@
 "ICLOUD_SYNC_MENU_TITLE"                                = "Locations saved in iCloud";
 "ICLOUD_SYNC_MENU_TIP"                                  = "Listed by farthest first. The location saved from this device is colored.";
 "ICLOUD_SYNC_MENU_FETCH_ERROR"                          = "An error occured fetching sync locations from iCloud: %@"; // %@ = error.
-"ICLOUD_SYNC_MENU_PROGRESS"                             = "%.0f%% - %@"; // %.0f = progress, %@ = device name.
+"ICLOUD_SYNC_MENU_PROGRESS"                             = "%.0f%% – %@"; // %.0f = progress, %@ = device name.
 "ICLOUD_SYNC_MENU_DATE"                                 = "Saved on %@"; // %@ = date.
 
 // ********************************************************************************
@@ -2372,7 +2389,7 @@
 "EPUB_AUTO_SCROLL_MENU_SPEED"                           = "Speed";
 "EPUB_AUTO_SCROLL_MENU_SPEED_VALUE"                     = "Speed: %.0f"; // %.0f == Percent speed.
 
-"EPUB_AUTO_SCROLL_SCRUB_TIP"                            = "Slide your finger down while scrubbing to adjust precision.\n\nAuto scrolling is automatically paused when you perform certain actions - to resume, slighly nudge the page up or down when the toolbars are hidden.";
+"EPUB_AUTO_SCROLL_SCRUB_TIP"                            = "Slide your finger down while scrubbing to adjust precision.\n\nAuto scrolling is automatically paused when you perform certain actions – to resume, slighly nudge the page up or down when the toolbars are hidden.";
 
 "EPUB_AUTO_SCROLL_WRONG_VIEWING_MODE"                   = "Auto-scrolling only works in vertical scrolling mode. Go to page settings and switch to vertical scrolling mode first.";
 "EPUB_AUTO_SCROLL_SWITCH_TO_PAGE_SETTINGS"              = "Go to page settings";
@@ -2798,7 +2815,7 @@
 
 "MARVIN_RESTORE_SCREEN_TITLE"                           = "Restore backup";
 "MARVIN_RESTORE_SCREEN_MESSAGE"                         = "Please read all prompts carefully. This is a destructive operation.\n\nAll your data, including books and annotations, will be REPLACED by this backup. Your settings will not be changed.\n\nThis operation cannot be undone.\n\nWhen the backup file is processed you will be asked to quit and restart Marvin to complete the restore.\n\nAfter a restore, your backup file will not be automatically deleted (just in case). When you make sure that the restore was successful, you should consider deleting it to save space.";
-"MARVIN_RESTORE_SCREEN_MESSAGE_CLASSIC"                 = "Please read all prompts carefully. This is a destructive operation.\n\nAll your data, including books and annotations, will be REPLACED by this backup.\n\nIMPORTANT NOTES: Because of differences between Marvin and Marvin Classic:\n • your book layouts will be reset to defaults,\n • book locations may change a bit,\n • global app settings will not be changed,\n • annotations, vocabulary, and highlights will be imported into your reading journal,\n • Deep View annotations and custom covers cannot be imported,\n • highlights will be restored as journal entries but not as actual highlights in your books (the new highlighting system is much more reliable but incompatible with Marvin Classic - sorry about this).\n\nThis operation cannot be undone.\n\nWhen the backup file is processed you will be asked to quit and restart Marvin to complete the restore.\n\nAfter a restore, your backup file will not be automatically deleted (just in case). When you make sure that the restore was successful, you should consider deleting it to save space.";
+"MARVIN_RESTORE_SCREEN_MESSAGE_CLASSIC"                 = "Please read all prompts carefully. This is a destructive operation.\n\nAll your data, including books and annotations, will be REPLACED by this backup.\n\nIMPORTANT NOTES: Because of differences between Marvin and Marvin Classic:\n • your book layouts will be reset to defaults,\n • book locations may change a bit,\n • global app settings will not be changed,\n • annotations, vocabulary, and highlights will be imported into your reading journal,\n • Deep View annotations and custom covers cannot be imported,\n • highlights will be restored as journal entries but not as actual highlights in your books (the new highlighting system is much more reliable but incompatible with Marvin Classic – sorry about this).\n\nThis operation cannot be undone.\n\nWhen the backup file is processed you will be asked to quit and restart Marvin to complete the restore.\n\nAfter a restore, your backup file will not be automatically deleted (just in case). When you make sure that the restore was successful, you should consider deleting it to save space.";
 "MARVIN_RESTORE_SCREEN_BUTTON"                          = "Restore this backup";
 "MARVIN_RESTORE_SCREEN_CONFIRM"                         = "Are you sure you want to replace all your data in Marvin with this backup?";
 "MARVIN_RESTORE_SCREEN_ALMOST_DONE"                     = "Your restore is almost complete. Quit Marvin and open again to complete.";
