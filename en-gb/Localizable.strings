@@ -307,6 +307,15 @@
 "PDF_TEMPLATE_ENTRY_NUMBERED_VOCABULARY"                = "%lu – Vocabulary"; //%lu = journal entry number
 
 // ********************************************************************************
+// HTML TEMPLATE
+// ********************************************************************************
+
+"HTML_TEMPLATE_HTML_TITLE"                              = "Annotations from Marvin for iOS";
+"HTML_TEMPLATE_HTML_TITLE_FOR_BOOK"                     = "Annotations for %@ by %@"; // 1st %@ = book title, 2nd %@ = author.
+"HTML_TEMPLATE_VOCABULARY_ITEM"                         = "Vocabulary: %@"; // %@ = word.
+"HTML_TEMPLATE_ENTRY_HAS_NO_TEXT"                       = "This entry has no text.";
+
+// ********************************************************************************
 // TWITTER
 // ********************************************************************************
 
@@ -875,14 +884,16 @@
 "SHARE_BOOK_ANNOTATION_EXCHANGE_TITLE"                  = "Annotations (Marvin → Marvin)";
 "SHARE_BOOK_ANNOTATION_EXCHANGE_TIP"                    = "Exchange, sync, or store annotations for this book with Marvin on another device.";
 
-"SHARE_BOOK_ANNOTATION_PDF_TITLE"                       = "Annotations (PDF)";
-"SHARE_BOOK_ANNOTATION_PDF_TIP"                         = "Save annotations to a PDF and send them to another app or device.";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_TITLE"              = "Annotations (multi-format)";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_TIP"                = "Export annotations as EPUB, PDF, HTML, or CSV and send them to another app or device.";
 
-"SHARE_BOOK_ANNOTATION_EPUB_TITLE"                      = "Annotations (EPUB)";
-"SHARE_BOOK_ANNOTATION_EPUB_TIP"                        = "Save annotations as an EPUB book and send them to another app or device.";
-
-"SHARE_BOOK_ANNOTATION_CSV_TITLE"                       = "Annotations (CSV)";
-"SHARE_BOOK_ANNOTATION_CSV_TIP"                         = "Save annotations to a CSV file and send them to another app or device. Photos will not be exported.";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_HEADER"        = "Export annotations as";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_EPUB"          = "EPUB";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_PDF"           = "PDF";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_HTML"          = "HTML";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_CSV"           = "CSV";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_INCL_VOCAB"    = "Also export vocabulary";
+"SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_TIP"           = "Photos and other attachments are not available in all export formats.";
 
 "SHARE_BOOK_VOCABULARY_TXT_TITLE"                       = "Vocabulary";
 "SHARE_BOOK_VOCABULARY_TXT_TIP"                         = "Share a text file containing all the vocabulary collected for this book.";
@@ -892,6 +903,9 @@
 
 "SHARE_BOOK_CSV_EXPORT_EMPTY"                           = "You haven’t created any journal entries or annotations that can be exported to a CSV file.";
 "SHARE_BOOK_CSV_EXPORT_CONFIRM"                         = "Export all your journal entries and annotations to a CSV now? This may take a while if you have lots of entries to export."; // Placeholder.
+
+"SHARE_BOOK_HTML_EXPORT_EMPTY"                          = "You haven’t created any journal entries or annotations that can be exported to an HTML file.";
+"SHARE_BOOK_HTML_EXPORT_CONFIRM"                        = "Export all your journal entries and annotations to an HTML now? This may take a while if you have lots of entries to export."; // Placeholder.
 
 "SHARE_BOOK_PDF_EXPORT_EMPTY"                           = "You haven’t created any journal entries or annotations that can be exported to a PDF journal.";
 "SHARE_BOOK_PDF_EXPORT_CONFIRM"                         = "Export all your journal entries and annotations to a PDF journal now (about %@)? This may take a while if you have lots of entries to export."; // Placeholder.
@@ -1147,16 +1161,28 @@
 "GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_TIP"          = "Choose the search engine that Marvin uses to perform web and image lookups.";
 
 // The menu and choices available for 'title display and sort' setting.
-"GENERAL_SETTINGS_TITLE_SORT_TITLE"                     = "Display and sort by";
-"GENERAL_SETTINGS_TITLE_SORT_TIP"                       = "This determines how book titles are displayed and sorted in your library. This might not work properly if the ‘title sort’ field in your book’s metadata is incorrect.";
-"GENERAL_SETTINGS_TITLE_SORT_TITLE_FIELD"               = "Title field";
-"GENERAL_SETTINGS_TITLE_SORT_TITLE_SORT_FIELD"          = "Title sort field";
+"GENERAL_SETTINGS_TITLE_SORT_DISPLAY_HEADER"            = "When showing titles use";
+"GENERAL_SETTINGS_TITLE_SORT_SORT_HEADER"               = "When sorting, sort by";
+"GENERAL_SETTINGS_TITLE_SORT_TITLE_FIELD"               = "Book ‘title’ field";
+"GENERAL_SETTINGS_TITLE_SORT_TITLE_SORT_FIELD"          = "Book ‘title sort’ field";
+"GENERAL_SETTINGS_TITLE_SORT_TIP"                       = "This determines how book titles are displayed and sorted in your library. This might not work properly if the ‘title sort’ field in your book’s metadata is incorrect. ";
+
+"GENERAL_SETTINGS_TITLE_SORT_DISPTITLE_SORTTITLE_SHORT" = "d:T / s:T";
+"GENERAL_SETTINGS_TITLE_SORT_DISPTITLE_SORTSORT_SHORT"  = "d:T / s:TS";
+"GENERAL_SETTINGS_TITLE_SORT_DISPSORT_SORTTITLE_SHORT"  = "d:TS / s:T";
+"GENERAL_SETTINGS_TITLE_SORT_DISPSORT_SORTSORT_SHORT"   = "d:TS / s:TS";
 
 // The menu and choices available for 'author display and sort' setting.
-"GENERAL_SETTINGS_AUTHOR_SORT_TITLE"                    = "Display and sort by";
-"GENERAL_SETTINGS_AUTHOR_SORT_TIP"                      = "This determines how authors are displayed and sorted in your library. This might not work properly if the ‘author sort’ field in your book’s metadata is incorrect.";
-"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_FIELD"             = "Author field";
-"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_SORT_FIELD"        = "Author sort field";
+"GENERAL_SETTINGS_AUTHOR_SORT_DISPLAY_HEADER"            = "When showing authors use";
+"GENERAL_SETTINGS_AUTHOR_SORT_SORT_HEADER"               = "When sorting, sort by";
+"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_FIELD"              = "Book ‘author’ field";
+"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_SORT_FIELD"         = "Book ‘author sort’ field";
+"GENERAL_SETTINGS_AUTHOR_SORT_TIP"                       = "This determines how authors are displayed and sorted in your library. This might not work properly if the ‘author sort’ field in your book’s metadata is incorrect. ";
+
+"GENERAL_SETTINGS_AUTHOR_SORT_DISPAUTHOR_SORTAUTHOR_SHORT"  = "d:A / s:A";
+"GENERAL_SETTINGS_AUTHOR_SORT_DISPAUTHOR_SORTSORT_SHORT"    = "d:A / s:AS";
+"GENERAL_SETTINGS_AUTHOR_SORT_DISPSORT_SORTAUTHOR_SHORT"    = "d:AS / s:A";
+"GENERAL_SETTINGS_AUTHOR_SORT_DISPSORT_SORTSORT_SHORT"      = "d:AS / s:AS";
 
 // The menu and choices available for 'long press Marvin button' setting.
 "GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_TITLE"            = "Long press Marvin button shows";
@@ -1336,6 +1362,7 @@
 "EPUB_SETTINGS_CELL_VERTICAL_MODE_HEADER"               = "Vertical scrolling mode";
 "EPUB_SETTINGS_CELL_EDGE_TAPPING"                       = "Edge tapping";
 "EPUB_SETTINGS_CELL_GUIDEBAR_ADVANCE"                   = "Guide bar on advance";
+"EPUB_SETTINGS_CELL_PAN_FOR_BRIGHTNESS_VMODE"           = "Horizontal pan for brightness";
 "EPUB_SETTINGS_CELL_BOTTOM_PROGRESS"                    = "Bottom progress bar";
 
 // The 'text selection menu' section.
@@ -1519,6 +1546,7 @@
 "CBX_SETTINGS_CELL_MULTI_BOOKMARKS"                     = "Multi-color bookmarks";
 "CBX_SETTINGS_CELL_BOTTOM_PROGRESS"                     = "Bottom progress bar";
 "CBX_SETTINGS_CELL_ZOOM_WIDGET"                         = "Show zoom widget";
+"CBX_SETTINGS_CELL_BRIGHTNESS_WIDGET"                   = "Toolbar brightness widget";
 "CBX_SETTINGS_CELL_FRAMING_SIZE"                        = "Framing size";
 "CBX_SETTINGS_CELL_PAGE_TURN_STYLE"                     = "Page turn style";
 "CBX_SETTINGS_CELL_ANIMATION_SPEED"                     = "Animation speed";
@@ -1900,9 +1928,15 @@
 // The sharing menu.
 "JOURNAL_MENU_SHARE_TITLE"                              = "Share your journal";
 "JOURNAL_MENU_SHARE_TIP"                                = "Exports entries that are currently visible (filter text is also honored). Export to EPUB will create journal and add it to your library.";
-"JOURNAL_MENU_SHARE_EPUB"                               = "Export to an EPUB";
-"JOURNAL_MENU_SHARE_PDF"                                = "Create a PDF";
-"JOURNAL_MENU_SHARE_CSV"                                = "Create a CSV file";
+"JOURNAL_MENU_SHARE_EXPORT"                             = "Export";
+
+"JOURNAL_MENU_SHARE_MENU_HEADER"                        = "Export annotations as";
+"JOURNAL_MENU_SHARE_MENU_EPUB"                          = "EPUB";
+"JOURNAL_MENU_SHARE_MENU_PDF"                           = "PDF";
+"JOURNAL_MENU_SHARE_MENU_HTML"                          = "HTML";
+"JOURNAL_MENU_SHARE_MENU_CSV"                           = "CSV";
+"JOURNAL_MENU_SHARE_MENU_INCL_VOCAB"                    = "Also export vocabulary";
+"JOURNAL_MENU_SHARE_MENU_TIP"                           = "Photos and other attachments are not available in all export formats.";
 
 // The map menu.
 "JOURNAL_MENU_READING_MAP_TITLE"                        = "Reading map";
@@ -1966,6 +2000,11 @@
 "JOURNAL_CSV_EXPORT_EMPTY"                              = "You don’t have any visible entries that can be exported to a CSV file.";
 "JOURNAL_CSV_EXPORT_ERROR"                              = "An error occured creating a CSV file from your journal. Make sure you have enough free space on your device.";
 "JOURNAL_CSV_EXPORT_CONFIRM"                            = "Export all your visible entries to a CSV file now? This may take a while if you have lots of entries to export.";
+
+// Export HTML messages.
+"JOURNAL_HTML_EXPORT_EMPTY"                             = "You don’t have any visible entries that can be exported to an HTML file.";
+"JOURNAL_HTML_EXPORT_ERROR"                             = "An error occured creating an HTML file from your journal. Make sure you have enough free space on your device.";
+"JOURNAL_HTML_EXPORT_CONFIRM"                           = "Export all your visible entries to an HTML file now? This may take a while if you have lots of entries to export.";
 
 // Export PDF messages.
 "JOURNAL_PDF_EXPORT_EMPTY"                              = "You don’t have any visible entries that can be exported to a PDF journal.";
@@ -2541,9 +2580,10 @@
 "EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_DATE_CREATED_TOP"  = "Date created, recent on top";
 "EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_DATE_UPDATED_TOP"  = "Date updated, recent on top";
 
-"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_HEADER"     = "Export";
-"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_INTERCHANGE"= "Export Marvin → Marvin";
-"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_TIP"        = "Exports your highlights and annotations including all other journal entries and photos for this book to a file that can be imported by Marvin on another device.";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_HEADER"         = "Export";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_INTERCHANGE"    = "Export (Marvin → Marvin)";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_MULTI_FORMAT"   = "Export (multi-format)";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_TIP"            = "Export (Marvin → Marvin) will export all your journal entries including photos and other attachments. Export (multi-format) will export the annotations that are currently visible honouring the current sort order.";
 
 "EPUB_BOOK_CONTENTS_ANNOTATIONS_EXPORT_EMPTY"           = "You haven’t created any annotations to export yet.";
 "EPUB_BOOK_CONTENTS_ANNOTATIONS_EXPORT_ERROR"           = "An error occured creating an annotations file. Make sure you have enough free space on your device.";
@@ -2725,10 +2765,12 @@
 "IAP_MINIMISE_BANNER_PRIMARY_TEXT"                      = "Tap to minimise";
 "IAP_MINIMISE_BANNER_SECONDARY_TEXT"                    = "Minimise this banner and continue reading.";
 
-"IAP_MENU_MESSAGE"                                      = "Enable Marvin with full-screen reading. Any future premium-only features will also be enabled with this one-time purchase.\n\nThank you for supporting Marvin!"; // Careful about the new lines.
+"IAP_MENU_MESSAGE"                                      = "Every single feature in Marvin is free to use without restrictions – this way you can decide better what Marvin can do.\n\nThis one-time purchase will remove the reminder banner and support Marvin’s future development. Thank you!"; // Careful about the new lines.
 "IAP_MENU_UNLOCK_BUTTON_LOADING"                        = "Loading…";
-"IAP_MENU_UNLOCK_BUTTON"                                = "Unlock for %@"; // %@ = price.
+"IAP_MENU_UNLOCK_BUTTON"                                = "Enable for %@"; // %@ = price.
 "IAP_MENU_RESTORE_BUTTON"                               = "Restore previous purchases";
+"IAP_MENU_PREVIEW_BUTTON"                               = "See what it looks like";
+"IAP_MENU_CONFIRM_PREVIEW"                              = "Try out full-screen reading for a day? You can do this once.";
 
 "IAP_MENU_ERROR_NO_APP_STORE"                           = "Marvin cannot access the App Store. Please check your internet connection and try again.";
 "IAP_MENU_ERROR_BAD_PRODUCTS"                           = "Sorry, there was a problem accessing the App Store (%lu). Please try again."; // %lu = error code.
