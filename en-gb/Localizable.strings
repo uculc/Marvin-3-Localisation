@@ -215,7 +215,7 @@
 
 "EMAIL_SUBJECT"                                         = "Marvin for iOS";
 
-// Careful: the following are HTML fragments.
+// Careful: the following are HTML fragments. KG_LINK x2.
 "EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author.
 "EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
 
@@ -769,7 +769,7 @@
 "SUPPORT_MARVIN_LOCALISE_TIP"                           = "Help localise Marvin in your language.";
 "SUPPORT_MARVIN_RATE_ON_APP_STORE"                      = "Rate and review Marvin";
 "SUPPORT_MARVIN_TIP_JAR"                                = "Tip Jar + Get Gifts";
-"SUPPORT_MARVIN_TIP_TEXT"                               = "If you’re enjoying Marvin and find it useful, please consider supporting future development, and get free themes by leaving a tip. Thank you!";
+"SUPPORT_MARVIN_TIP_TEXT"                               = "If you’re enjoying Marvin and find it useful, consider supporting future development, and get free themes by leaving a tip. Thank you!";
 "SUPPORT_MARVIN_TIP_LOADING"                            = "Loading…";
 "SUPPORT_MARVIN_TIP_ERROR"                              = "Something went wrong (%lu)"; // %lu = error code.
 "SUPPORT_MARVIN_RESTORE_TIPS"                           = "Restore previous tips";
@@ -1278,12 +1278,15 @@
 
 "COLOUR_SCHEMES_LIGHT_SCHEME"                           = "Light";
 "COLOUR_SCHEMES_DARK_SCHEME"                            = "Dark";
-"COLOUR_SCHEMES_GREY_SCHEME"                            = "Steel";
+"COLOUR_SCHEMES_STEEL_SCHEME"                           = "Steel";
 "COLOUR_SCHEMES_SILVER_SCHEME"                          = "Silver";
 "COLOUR_SCHEMES_CARAMEL_SCHEME"                         = "Caramel";
 "COLOUR_SCHEMES_CAMO_SCHEME"                            = "Camo";
 "COLOUR_SCHEMES_PLUM_SCHEME"                            = "Plum";
-"COLOUR_SCHEMES_BROWN_SCHEME"                           = "Chocolate";
+"COLOUR_SCHEMES_CHOCOLATE_SCHEME"                       = "Chocolate";
+"COLOUR_SCHEMES_OCEANIC_SCHEME"                         = "Oceanic";
+"COLOUR_SCHEMES_COMET_SCHEME"                           = "Comet";
+"COLOUR_SCHEMES_STONE_SCHEME"                           = "Stone";
 "COLOUR_SCHEMES_AUTOMATIC_SCHEME"                       = "Automatic";
 
 "COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP_TITLE"               = "Enable all color schemes";
@@ -2248,7 +2251,7 @@
 "EPUB_BOOK_SCRUBBER_HUD_PAGE_NUMBER"                        = "Page %lu"; // %lu = page number.
 "EPUB_BOOK_SCRUBBER_HUD_TIP"                                = "Drag your finger up while scrubbing to increase precision.";
 
-"EPUB_BOOK_IMAGE_MENU_TOOLS_TITLE"                          = "Image or photo";
+"EPUB_BOOK_IMAGE_MENU_TOOLS_TITLE"                          = "You tapped on an image";
 "EPUB_BOOK_IMAGE_MENU_TOOLS_VIEWER"                         = "Image viewer";
 "EPUB_BOOK_IMAGE_MENU_TOOLS_SHARE_OR_SEND"                  = "Share or send this image";
 "EPUB_BOOK_IMAGE_MENU_UTILITIES_TITLE"                      = "Utilities";
@@ -2782,14 +2785,17 @@
 "IAP_GENEROUS_TIP_BUTTON"                               = "Generous tip of %@"; // price.
 "IAP_AMAZING_TIP_BUTTON"                                = "Amazing tip of %@"; // price.
 "IAP_INCREDIBLE_TIP_BUTTON"                             = "Incredible tip of %@"; // price.
+"IAP_FABULOUS_TIP_BUTTON"                               = "Fabulous tip of %@"; // price.
 
 "IAP_GENEROUS_TIP_PURCHASED"                            = "Thank you!";
 "IAP_AMAZING_TIP_PURCHASED"                             = "You’re amazing!";
 "IAP_INCREDIBLE_TIP_PURCHASED"                          = "You’re incredible!";
+"IAP_FABULOUS_TIP_PURCHASED"                            = "You’re fabulous!";
 
 "IAP_GENEROUS_TIP_ALREADY_PURCHASED"                    = "You already left a generous tip. Thank you!";
 "IAP_AMAZING_TIP_ALREADY_PURCHASED"                     = "You already left an amazing tip. Thank you!";
 "IAP_INCREDIBLE_TIP_ALREADY_PURCHASED"                  = "You already left an incredible tip. Thank you!";
+"IAP_FABULOUS_TIP_ALREADY_PURCHASED"                    = "You already left a fabulous tip. Thank you!";
 
 "IAP_TIP_PURCHASES_RESTORED"                            = "Your previous tips have been restored. Thank you!";
 "IAP_TIP_PURCHASE_COMPLETE"                             = "Thank you for your tip! Enjoy your new themes.";
