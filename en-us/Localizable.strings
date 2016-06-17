@@ -366,7 +366,7 @@
 "COLLECTION_NAME_UNCOLLECTED"                           = "Not in a collection";
 "COLLECTION_NAME_NEW_FLAG"                              = "With new flag";
 "COLLECTION_NAME_NOT_NEW_FLAG"                          = "Without new flag";
-"COLLECTION_NAME_READ"                                  = "Marked as read";
+"COLLECTION_NAME_READ"                                  = "Read books";
 "COLLECTION_NAME_UNREAD"                                = "Unread books";
 "COLLECTION_NAME_OPENED"                                = "Opened books";
 "COLLECTION_NAME_UNOPENED"                              = "Unopened books";
@@ -1091,7 +1091,7 @@
 "GENERAL_SETTINGS_CELL_SLIDE_OVER_PROTECTION"           = "Slide over protection";
 "GENERAL_SETTINGS_CELL_SESSION_TIME_ON_CLOSE"           = "Show session time on close";
 "GENERAL_SETTINGS_CELL_PINCH_IN_LIBRARY"                = "Pinch gestures in library";
-"GENERAL_SETTINGS_CELL_LIBRARY_LIST_INFO_LINE"          = "List info line";
+"GENERAL_SETTINGS_CELL_LIBRARY_LIST_INFO_LINE"          = "List info box";
 "GENERAL_SETTINGS_CELL_MORNING_REMINDER"                = "Morning reminder";
 "GENERAL_SETTINGS_CELL_EVENING_REMINDER"                = "Evening reminder";
 
@@ -1191,9 +1191,9 @@
 "GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_UCOLLECTIONS"     = "User collections";
 "GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_RECENT"           = "Recently opened";
 
-// The menu and choices available for 'list info line' setting.
-"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TITLE"         = "Info line shows";
-"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TIP"           = "This value determines what is shown in the extra info line when you are in regular or large text list mode.";
+// The menu and choices available for 'list info box' setting.
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TITLE"         = "Info box shows";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TIP"           = "This value determines what is shown in the extra info box when you are in regular or large text list mode.";
 "GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_MARKERS"       = "Markers";
 "GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_SUBJECTS"      = "Subjects";
 "GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_SERIES"        = "Series";
@@ -2223,6 +2223,7 @@
 
 "EPUB_BOOK_BEGINNING_OF_BOOK_ACTIONS"                       = "Beginning of book actions";
 "EPUB_BOOK_END_OF_BOOK_ACTIONS"                             = "End of book actions";
+"EPUB_BOOK_END_OF_BOOK_ACTIONS_YES_CLOSE_BOOK_CONFIRM"      = "Yes, and close book";
 
 "EPUB_BOOK_HELP_SCREEN_TITLE"                               = "In-book help";
 
@@ -2839,6 +2840,7 @@
 // ********************************************************************************
 
 "MARVIN_BACKUP_CONFIRM"                                 = "Your backup will be saved in your documents directory and may take up to %@. Continue?"; // %@ = backup size.
+"MARVIN_BACKUP_CONFIRM_4G"                              = "Your backup will be saved in your documents directory and may take up to %@. BACKING UP AND RESTORING FILES CLOSE TO OR LARGER THAN 4GB IS VERY SLOW. Continue?"; // %@ = backup size.
 
 "MARVIN_BACKUP_NO_SPACE"                                = "You don’t have enough free space to create a backup. Marvin needs %@ and you have %@ free."; // %@ = backup size, %@ = free space.
 
