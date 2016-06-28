@@ -412,6 +412,7 @@
 "INTERCHANGE_FILE_CUSTOM_TEXT_COMMANDS_IMPORT_ERROR"    = "An error occured importing a custom text menu commands file. Please make sure it isn’t corrupted.";
 
 "INTERCHANGE_FILE_CUSTOM_FONTS_TITLE"                   = "Import custom fonts";
+"INTERCHANGE_FILE_CUSTOM_FONTS_IMPORT_FONT_ARCHIVE"     = "Import font archive?";
 "INTERCHANGE_FILE_CUSTOM_FONTS_IMPORT_SUCCESS"          = "Your custom fonts have been imported into Marvin. You can find them in Settings, EPUB, Custom fonts.";
 "INTERCHANGE_FILE_CUSTOM_FONTS_IMPORT_ERROR"            = "An error occured importing a custom fonts file. Please make sure it isn’t corrupted.";
 
@@ -559,6 +560,19 @@
 "HOME_SORT_MENU_BY_DATE_ADDED"                          = "Date added";
 "HOME_SORT_MENU_BY_DATE_OPENED"                         = "Date last opened";
 "HOME_SORT_MENU_BY_READING_LIST"                        = "Reading list on top";
+"HOME_SORT_MENU_BY_SHUFFLE"                             = "Shuffle";
+
+// The 'book lock' menu shown when tapping the toolbar button.
+"HOME_BOOK_LOCK_MENU_TITLE"                             = "Book lock password";
+"HOME_BOOK_LOCK_MENU_MODIFY"                            = "Change or remove password";
+"HOME_BOOK_LOCK_MENU_TIP"                               = "You have a book lock password set. Tap here to edit or remove it.";
+
+"HOME_BOOK_LOCK_MENU_EDIT_OR_REMOVE"                    = "Enter your current password followed by the new password (repeated) to change. Leave new passwords blank to remove all book locks.";
+"HOME_BOOK_LOCK_MENU_CURRENT_PASSWORD"                  = "Current password";
+"HOME_BOOK_LOCK_MENU_NEW_PASSWORD"                      = "New password or empty";
+"HOME_BOOK_LOCK_MENU_NEW_PASSWORD_REPEAT"               = "Repeat new password";
+"HOME_BOOK_LOCK_MENU_CURRENT_PASSWORD_INCORRECT"        = "The current password you entered is incorrect. Try again.";
+"HOME_BOOK_LOCK_MENU_CURRENT_PASSWORD_DONT_MATCH"       = "The new passwords you entered do not match.";
 
 // The 'multi-select' menu shown when you tap the right main menu button in the toolbar.
 "HOME_MULTI_SELECT_MENU_HEADER"                         = "Multi-select";
@@ -712,6 +726,7 @@
 "ABOUT_TWITTER_TIP"                                     = "Follow Appstafarian on Twitter for news, updates, tutorials, and other goodies.";
 "ABOUT_FACEBOOK"                                        = "Check Marvin out on Facebook";
 "ABOUT_WEBSITE"                                         = "Visit appstafarian.com";
+"ABOUT_TUTORIALS"                                       = "Help and tutorials";
 "ABOUT_CREDITS"                                         = "Info, credits, and privacy";
 "ABOUT_MORE_APPS"                                       = "More apps you’ll love";
 "ABOUT_MARVIN"                                          = "Marvin is an eBook reader for people who are passionate about their books. Get Marvin and find out why readers are calling it “the most brilliant eReader to come out in a long time”.";
@@ -1012,7 +1027,19 @@
 "ACTIONS_UNFLAG_NEW"                                    = "Remove the new flag";
 "ACTIONS_MARK_READ"                                     = "Mark as read";
 "ACTIONS_MARK_UNREAD"                                   = "Mark as unread";
+"ACTIONS_MARK_UNOPENED"                                 = "Mark as unopened";
+"ACTIONS_MARK_UNOPENED_REWIND"                          = "Mark as unopened and rewind";
+"ACTIONS_MARK_LOCKED"                                   = "Password protect";
+"ACTIONS_MARK_UNLOCKED"                                 = "Remove password protection";
 "ACTIONS_DELETE"                                        = "Delete";
+
+"ACTIONS_ENTER_LOCK_PASSWORD_TITLE"                     = "Book lock password";
+"ACTIONS_ENTER_LOCK_PASSWORD_MESSAGE"                   = "Enter your book lock password:";
+"ACTIONS_ENTER_LOCK_PASSWORD_INCORRECT"                 = "You entered an incorrect password. Try again.";
+"ACTIONS_ENTER_LOCK_PASSWORD_ENABLE_MESSAGE"            = "Enter and repeat a book lock password. Passwords are case sensitive and CANNOT be recovered if forgotten.";
+"ACTIONS_ENTER_LOCK_PASSWORD_REPEAT"                    = "Repeat password";
+"ACTIONS_ENTER_LOCK_PASSWORD_DONT_MATCH"                = "The passwords you entered do not match.";
+"ACTIONS_ENTER_LOCK_PASSWORD_REMOVE"                    = "Remove book lock password";
 
 // ********************************************************************************
 // COLLECTIONS EDITOR SCREEN (CollectionsEditorViewController)
@@ -1066,6 +1093,7 @@
 "GENERAL_SETTINGS_CELL_RECENTLY_OPENED"                 = "Recently opened list";
 "GENERAL_SETTINGS_CELL_LONG_LIST_SCRUBBING"             = "Long list scrubber";
 "GENERAL_SETTINGS_CELL_SQUARE_COVERS"                   = "Square list covers";
+"GENERAL_SETTINGS_CELL_LEFT_ALIGNED_MENUS"              = "Left aligned menus";
 "GENERAL_SETTINGS_CELL_KEYBOARD"                        = "Keyboard";
 "GENERAL_SETTINGS_CELL_QUICK_LAUNCH_PANEL_SIZE"         = "Quick launch panel";
 "GENERAL_SETTINGS_CELL_MAIN_MENU_ITEMS"                 = "Home screen menus";
@@ -1379,6 +1407,7 @@
 "EPUB_SETTINGS_CELL_SEARCH"                             = "Search";
 "EPUB_SETTINGS_CELL_WIKIPEDIA"                          = "Wikipedia";
 "EPUB_SETTINGS_CELL_CUSTOM_COMMANDS"                    = "Custom commands";
+"EPUB_SETTINGS_CELL_INLINE_CUSTOM_COMMANDS"             = "Inline custom commands";
 
 // The 'custom fonts' section.
 "EPUB_SETTINGS_CELL_FONTS_HEADER"                       = "Custom fonts";
@@ -1433,7 +1462,7 @@
 
 // The menu and choices available for 'headers and footers' setting.
 "EPUB_SETTINGS_HEADERS_AND_FOOTERS_TITLE"               = "Accessory preferences";
-"EPUB_SETTINGS_HEADERS_AND_FOOTERS_TIP"                 = "How to display accessories in page headers and footers.";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_TIP"                 = "How to display accessories in page headers and footers. If you want your text to occupy most of the screen, choose ‘Hidden’ or ‘Progress bar’ together with ‘Narrow’ vertical margins.";
 "EPUB_SETTINGS_HEADERS_AND_FOOTERS_DIM"                 = "Dim";
 "EPUB_SETTINGS_HEADERS_AND_FOOTERS_PROMINENT"           = "Prominent";
 "EPUB_SETTINGS_HEADERS_AND_FOOTERS_HIDDEN"              = "Hidden";
@@ -1441,7 +1470,7 @@
 
 // The menu and choices available for 'vertical margin size' setting.
 "EPUB_SETTINGS_VERTICAL_MARGINS_TITLE"                  = "Vertical margin size";
-"EPUB_SETTINGS_VERTICAL_MARGINS_TIP"                    = "Headers and footers might not fit on smaller devices when vertical margins are set to narrow.";
+"EPUB_SETTINGS_VERTICAL_MARGINS_TIP"                    = "If you want your text to occupy most of the screen, choose ‘Narrow’ margins together with ‘Hidden’ or ‘Progress bar’ headers.";
 "EPUB_SETTINGS_VERTICAL_MARGINS_NORMAL"                 = "Normal";
 "EPUB_SETTINGS_VERTICAL_MARGINS_SMALL"                  = "Narrow";
 "EPUB_SETTINGS_VERTICAL_MARGINS_LARGE"                  = "Wide";
@@ -2255,6 +2284,8 @@
 "EPUB_BOOK_IMAGE_MENU_TOOLS_TITLE"                          = "You tapped on an image";
 "EPUB_BOOK_IMAGE_MENU_TOOLS_VIEWER"                         = "Image viewer";
 "EPUB_BOOK_IMAGE_MENU_TOOLS_SHARE_OR_SEND"                  = "Share or send this image";
+"EPUB_BOOK_IMAGE_MENU_TOOLS_DOUBLE_TAP_INSTEAD"             = "Double-tap instead";
+"EPUB_BOOK_IMAGE_MENU_TOOLS_TIP"                            = "Turn on ‘double-tap instead’ if you prefer that this menu is shown when double-tapping instead of single-tapping on an image.";
 "EPUB_BOOK_IMAGE_MENU_UTILITIES_TITLE"                      = "Utilities";
 "EPUB_BOOK_IMAGE_MENU_UTILITIES_TOGGLE_TOOLBARS"            = "Toggle toolbars";
 "EPUB_BOOK_IMAGE_MENU_UTILITIES_CLOSE_BOOK"                 = "Close book";
@@ -2403,6 +2434,8 @@
 "EPUB_LAYOUT_MENU_RESET"                                = "Reset layout settings";
 "EPUB_LAYOUT_MENU_RESET_CONFIRM"                        = "This will reset all the layout settings in this page to defaults. Continue?";
 "EPUB_LAYOUT_MENU_SLIDE_TO_RESET"                       = "You can slide labels with ± buttons to set default.";
+"EPUB_LAYOUT_MENU_APPLY_TO_ALL_OPENED_BOOKS"            = "Apply to all opened books";
+"EPUB_LAYOUT_MENU_APPLY_TO_ALL_OPENED_BOOKS_CONFIRM"    = "Apply current layout and fonts to all opened books? (some tweaking might still be necessary)";
 
 // ********************************************************************************
 // EPUB PAGINATION SUB MENU (epubPaginationMenuViewController)
