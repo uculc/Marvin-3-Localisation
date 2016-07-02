@@ -155,7 +155,7 @@
 "MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 Datei konnte nicht importiert werden weil sie beschädigt oder verschlüsselt ist.";
 "MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu Dateien konnten nicht importiert werden weil sie beschädigt oder verschlüsselt sind.";
 
-"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu Datei(en) konnte(n) nicht imporiert werden, weil sie beschädigt oder verschlüsselt ist(sind). Allenfalls sollte(n) diese Datei(en) vom Geräte gelöscht werden, damit der Fehler nicht wieder auftritt. Eine Liste der fehlgeschlagenen Dateien wurde unter /Documents/Logs/failed.txt gespeichert";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu Datei(en) konnte(n) nicht imporiert werden, weil sie beschädigt oder verschlüsselt ist(sind). Allenfalls sollte(n) diese Datei(en) vom Gerät gelöscht werden, damit der Fehler nicht wieder auftritt. Eine Liste der fehlgeschlagenen Dateien wurde unter /Documents/Logs/failed.txt gespeichert";
 "MSGBOX_NO_APP_FOR_URL"                                 = "Du hast keine App installiert, die diesen Befehl ausführen kann.";
 "MSGBOX_NO_APP_FOR_DOCUMENT"                            = "Du hast keine App installiert, die eine Datei dieses Typs öffnen kann.";
 "MSGBOX_NO_APP_FOR_DICTIONARY"                          = "Die Wörterbuch-App, die du in den allgemeinen Einstellungen angegeben hast, ist nicht auf diesem Gerät installiert.";
@@ -392,7 +392,7 @@
 "DOWNLOAD_HELPER_DOWNLOADING"                           = "Herunterladen…";
 "DOWNLOAD_HELPER_STARTING"                              = "Start…";
 "DOWNLOAD_HELPER_BOOK_DOWNLOAD_MESSAGE"                 = "Buch von ‘%@’ herunterladen und importieren? Das Buch wird deiner Bibliothek hinzugefügt."; // %@ will contain the URL host showing the book's origin.
-"DOWNLOAD_HELPER_AUTHENTICATION_ERROR"                  = "Authentifizierung Fehler.";
+"DOWNLOAD_HELPER_AUTHENTICATION_ERROR"                  = "Authentifizierungs-Fehler.";
 "DOWNLOAD_HELPER_INVALID_ADDRESS"                       = "Die Adresse des selektierten Buches ist ungültig.";
 "DOWNLOAD_HELPER_DOWNLOAD_ERROR"                        = "Das Buch kann nicht heruntergeladen werden. Die Adresse ist ungültig oder der Server ist nicht verfügbar.";
 "DOWNLOAD_HELPER_BOOK_ALREADY_IN_LIBRARY"               = "Das heruntergeladene Buch existiert bereits in deiner Bibliothek.";
@@ -401,7 +401,7 @@
 "DOWNLOAD_HELPER_DOWNLOAD_1_BOOK"                       = "1 Buch herunterladen und importieren?";
 "DOWNLOAD_HELPER_DOWNLOAD_X_BOOKS"                      = "%i Bücher herunterladen und importieren?"; // %i = book count.
 "DOWNLOAD_HELPER_COUNT_PROGRESS"                        = "%i von %i…"; // First %i = current book, second %i = total books.
-"DOWNLOAD_HELPER_MULTI_FAIL"                            = "%i von %i wurden nicht importiert. Das kann passieren wenn sich die Bücher bereits in der Bibliothek befinden, ein Fehler beim Herunterladen auftritt oder die Bücher in einem Format sind, das Marvin nicht verarbeiten kann."; // First %i = bad book count, second %i = total books.
+"DOWNLOAD_HELPER_MULTI_FAIL"                            = "%i von %i wurden nicht importiert. Das kann passieren, wenn sich die Bücher bereits in der Bibliothek befinden, ein Fehler beim Herunterladen auftritt oder die Bücher in einem Format sind, das Marvin nicht verarbeiten kann."; // First %i = bad book count, second %i = total books.
 
 // ********************************************************************************
 // INTERCHANGE FILES
@@ -425,7 +425,7 @@
 "INTERCHANGE_FILE_OPDS_FAVOURITES_IMPORT_ERROR"         = "Fehler beim Einlesen der Datei mit den OPDS-Favoriten. Bitte die Datei auf Beschädigung prüfen.";
 
 "INTERCHANGE_FILE_BOOKMARK_TITLE"                       = "Importiere Lesezeichen";
-"INTERCHANGE_FILE_BOOKMARK_IMPORT_SUCCESS"              = "Dein Lesezeichen wurden in Marvin importiert.";
+"INTERCHANGE_FILE_BOOKMARK_IMPORT_SUCCESS"              = "Dein Lesezeichen wurde in Marvin importiert.";
 "INTERCHANGE_FILE_BOOKMARK_IMPORT_ERROR"                = "Fehler beim Einlesen der Datei mit dem Lesezeichen. Bitte die Datei auf Beschädigung prüfen.";
 
 "INTERCHANGE_FILE_BOOKMARKS_TITLE"                      = "Importiere Lesezeichen";
@@ -454,7 +454,7 @@
 "SPLASH_GET_STARTUP_PASSWORD_TITLE"                     = "Start-Passwort";
 "SPLASH_GET_STARTUP_PASSWORD_MESSAGE"                   = "Start-Passwort eingeben.";
 
-"SPLASH_GET_STARTUP_USE_TOUCH_ID"                       = "Marvin mit Touch ID freischalten. Tippe auf ‘Abbrechen’ wenn du dein Passwort manuell eingeben willst.";
+"SPLASH_GET_STARTUP_USE_TOUCH_ID"                       = "Marvin mit Touch ID freischalten. Tippe auf ‘Abbrechen’, wenn du dein Passwort manuell eingeben willst.";
 
 "SPLASH_GET_STARTUP_PASSWORD_INCORRECT"                 = "Falsches Passwort. Nochmals versuchen.";
 
@@ -482,7 +482,7 @@
 "HOME_REVEAL_FILE_SIZE"                                 = "Dateigrösse: %@";
 "HOME_REVEAL_PUBLISHER"                                 = "Verlag: %@";
 "HOME_REVEAL_WORD_COUNT_VALUE"                          = "Anzahl Wörter: ungefähr %@ Wörter";
-"HOME_REVEAL_WORD_COUNT_STILL_WORKING"                  = "Anzahl Wörter: beim Berechnen";
+"HOME_REVEAL_WORD_COUNT_STILL_WORKING"                  = "Anzahl Wörter: wird berechnet";
 "HOME_REVEAL_UNOPENED"                                  = "Du hast dieses Buch noch nicht geöffnet";
 
 // Markers.
@@ -563,11 +563,11 @@
 "HOME_SORT_MENU_BY_SHUFFLE"                             = "Zufällig";
 
 // The 'book lock' menu shown when tapping the toolbar button.
-"HOME_BOOK_LOCK_MENU_TITLE"                             = "Passwort gesperrtes Buch";
+"HOME_BOOK_LOCK_MENU_TITLE"                             = "Buch-Passwortschutz";
 "HOME_BOOK_LOCK_MENU_MODIFY"                            = "Passwort ändern oder entfernen";
-"HOME_BOOK_LOCK_MENU_TIP"                               = "Du hast ein Buch-Sperrungs-Passwort gesetzt. Hier tippen, um es zu editieren oder zu entfernen";
+"HOME_BOOK_LOCK_MENU_TIP"                               = "Du hast ein Buch-Passwort gesetzt. Hier tippen, um es zu editieren oder zu entfernen";
 
-"HOME_BOOK_LOCK_MENU_EDIT_OR_REMOVE"                    = "Aktuelles Passwort und anschliessend neues Passwort für die Änderung eingeben (wiederholt). Neues Passwort leer lassen, um die Buch-Sperrungen zu entfernen.";
+"HOME_BOOK_LOCK_MENU_EDIT_OR_REMOVE"                    = "Aktuelles Passwort und anschliessend neues Passwort für die Änderung eingeben (wiederholt). Neues Passwort leer lassen, um den Buch-Passwortschutz zu entfernen.";
 "HOME_BOOK_LOCK_MENU_CURRENT_PASSWORD"                  = "Aktuelles Passwort";
 "HOME_BOOK_LOCK_MENU_NEW_PASSWORD"                      = "Neues Passwort oder leer lassen";
 "HOME_BOOK_LOCK_MENU_NEW_PASSWORD_REPEAT"               = "Neues Passwort wiederholen";
@@ -576,7 +576,7 @@
 
 // The 'multi-select' menu shown when you tap the right main menu button in the toolbar.
 "HOME_MULTI_SELECT_MENU_HEADER"                         = "Multi-Selektion";
-"HOME_MULTI_SELECT_MENU_TIP"                            = "Selektiere zuerst alle zu bearbeitenden Bücher, tippe dann auf das Häkchen ganz oben in der Symbolleiste um die Bearbeitung zu beginnen.";
+"HOME_MULTI_SELECT_MENU_TIP"                            = "Selektiere zuerst alle zu bearbeitenden Bücher, tippe dann auf das Häkchen ganz oben in der Symbolleiste um mit der Bearbeitung zu beginnen.";
 "HOME_MULTI_SELECT_MENU_ENTER"                          = "Selektiere mehrere Bücher";
 "HOME_MULTI_SELECT_MENU_EXIT"                           = "Beende Multi-Selektions-Modus";
 "HOME_MULTI_SELECT_MENU_SELECT_ALL"                     = "Selektiere alle eingeblendeten Bücher";
@@ -586,7 +586,7 @@
 "HOME_VIEWING_MODE_MENU_TITLE"                          = "Anzeigemodus";
 "HOME_VIEWING_MODE_MENU_TIP"                            = "Wenn die Pinch-Geste in den Einstellungen aktiviert ist, kann durch Auf- und Zusammenziehen durch die verschiedenen Anzeigemodi gewechselt werden.";
 "HOME_VIEWING_MODE_MENU_COVERS"                         = "Titelbild-Anzeige";
-"HOME_VIEWING_MODE_MENU_COVERS_AND_CAPTIONS"            = "Titelbild-Anzeige mit Bildunterschiften";
+"HOME_VIEWING_MODE_MENU_COVERS_AND_CAPTIONS"            = "Titelbild-Anzeige mit Bildunterschriften";
 "HOME_VIEWING_MODE_MENU_REGULAR_LIST"                   = "Normale Liste";
 "HOME_VIEWING_MODE_MENU_CONDENSED_LIST"                 = "Komprimierte Liste";
 "HOME_VIEWING_MODE_MENU_BIG_TEXT"                       = "Grösserer Text";
@@ -609,12 +609,12 @@
 "HOME_CLOUD_MENU_WEB"                                   = "Webbrowser";
 "HOME_CLOUD_MENU_ITUNES"                                = "iTunes Drag-and-Drop";
 
-"HOME_CLOUD_MENU_FOOTER"                                = "Marvin öffnet DRM-freie EPUB Bücher und CBZ/CBR Comics.";
+"HOME_CLOUD_MENU_FOOTER"                                = "Marvin öffnet DRM-freie EPUB-Bücher und CBZ/CBR-Comics.";
 
 // The panel shown if there are no books to display.
 "HOME_NO_DATA_TIP_IN_ALL_BOOKS"                         = "Beginne mit dem Hinzufügen von Büchern aus Dropbox, OPDS, Calibre, iTunes, iCloud und anderen Quellen.";
 "HOME_NO_DATA_BUTTON_IN_ALL_BOOKS"                      = "Bücher hinzufügen";
-"HOME_NO_DATA_TIP_IN_COLLECTION"                        = "Diese Sammlung ist leer. Gehe zur Sammlung ‘Alle deine Bücher’ um deine Bibliothek zu sehen.";
+"HOME_NO_DATA_TIP_IN_COLLECTION"                        = "Diese Sammlung ist leer. Gehe zur Sammlung ‘Alle deine Bücher’, um deine Bibliothek zu sehen.";
 "HOME_NO_DATA_BUTTON_IN_COLLECTION"                     = "Alle deine Bücher";
 
 // The message and action shown if Marvin detects books added or removed from the /documents directory.
@@ -749,7 +749,7 @@
 
 "GET_MARVIN_SXS_MENU_SHARE_TITLE"                       = "Weitersagen";
 "GET_MARVIN_SXS_MENU_SHARE"                             = "Erzähl es deinen Freunden";
-"GET_MARVIN_SXS_MENU_SHARE_MESSAGE"                     = "Marvin Side-by-Side ist eine spezielle Version mit einer eigenständigen Bibliothek, die es erlaubt, zwei Bücher gleichzeitig zu lesen oder zu vergleichen. Funktioniert hervorragend mit Slide Over und Split View Geräten.";
+"GET_MARVIN_SXS_MENU_SHARE_MESSAGE"                     = "Marvin Side-by-Side ist eine spezielle Version mit einer eigenständigen Bibliothek, die es in Kombination mit Marvin erlaubt, zwei Bücher gleichzeitig zu lesen oder zu vergleichen. Funktioniert hervorragend mit Slide Over und Split View Geräten.";
 
 // The menu shown to get Gerty.
 "GET_GERTY_MENU_TITLE"                                  = "App Store";
@@ -784,7 +784,7 @@
 "SUPPORT_MARVIN_LOCALISE_TIP"                           = "Hilf mit, Marvin in deine Sprache zu übersetzen.";
 "SUPPORT_MARVIN_RATE_ON_APP_STORE"                      = "Bewerte und rezensiere Marvin";
 "SUPPORT_MARVIN_TIP_JAR"                                = "Kaffeekasse + Geschenke erhalten";
-"SUPPORT_MARVIN_TIP_TEXT"                               = "Gefällt dir Marvin und findest du es nützlich? Möchtest du die Weiterentwicklung unterstützen? Für einen kleinen Beitrag in die Kaffeekasse erhältst du zusätzliche Designs. Danke!";
+"SUPPORT_MARVIN_TIP_TEXT"                               = "Gefällt dir Marvin und findest du es nützlich? Möchtest du die Weiterentwicklung unterstützen? Für einen kleinen Beitrag in die Kaffeekasse erhältst du zusätzliche Farbschemen. Danke!";
 "SUPPORT_MARVIN_TIP_LOADING"                            = "Laden…";
 "SUPPORT_MARVIN_TIP_ERROR"                              = "Etwas ist schief gelaufen (%lu)"; // %lu = error code.
 "SUPPORT_MARVIN_RESTORE_TIPS"                           = "Bisherige Beiträge wiederherstellen";
@@ -858,11 +858,11 @@
 "METADATA_RATING_LABEL"                                 = "Bewertung:";
 "METADATA_SUMMARY_BUTTON"                               = "Inhaltsangabe des Verlags…";
 "METADATA_COVER_BUTTON"                                 = "Titelbild ändern…";
-"METADATA_TIP_LABEL"                                    = "Metadaten-Änderungen werden nur in Marvin gespeichert. Deine Bücher-Dateien werden nie geändert.";
+"METADATA_TIP_LABEL"                                    = "Metadaten-Änderungen werden nur in Marvin gespeichert. Deine Buch-Dateien werden nie geändert.";
 
 // The menu shown to change the book's cover.
 "METADATA_CHANGE_COVER_TITLE"                           = "Wähle ein neues Titelbild";
-"METADATA_CHANGE_COVER_TIP"                             = "Wenn du ein Titlelbild im Web suchst, musst du das neue Bild im Webbrowser zuerst sichern und anschliessend ‘aus Fotos’ auswählen.";
+"METADATA_CHANGE_COVER_TIP"                             = "Wenn du ein Titellbild im Web suchst, musst du das gefundene Bild im Webbrowser zuerst sichern und anschliessend ‘aus Fotos’ auswählen.";
 "METADATA_CHANGE_COVER_PHOTOS"                          = "Aus Fotos";
 "METADATA_CHANGE_COVER_RESTORE"                         = "Original wiederherstellen";
 "METADATA_CHANGE_COVER_WEB"                             = "Suche im Web nach einem Titelbild";
@@ -889,7 +889,7 @@
 "SHARE_BOOK_OPEN_IN_TIP"                                = "Teile dieses Buch via AirDrop, eine andere App oder einen Dienst. Wenn du dieses Buch in einer anderen App öffnen willst, wähle ‘Öffnen in…’ im Pop-up-Fenster.";
 
 "SHARE_BOOK_SEND_TO_MARVIN_SXS"                         = "Sende an Marvin SxS";
-"SHARE_BOOK_SEND_TO_MARVIN_SXS_TIP"                     = "Marvin Side-by-Side ist eine spezielle Version mit einer eigenständigen Bibliothek, die es erlaubt, zwei Bücher gleichzeitig zu lesen oder zu vergleichen.";
+"SHARE_BOOK_SEND_TO_MARVIN_SXS_TIP"                     = "Marvin Side-by-Side ist eine spezielle Version mit einer eigenständigen Bibliothek, die es in Kombination mit Marvin erlaubt, zwei Bücher gleichzeitig zu lesen oder zu vergleichen.";
 "SHARE_BOOK_SEND_TO_MARVIN_SXS_NOT_INSTALLED"           = "Marvin SxS ist nicht auf diesem Gerät installiert. Im App Store anschauen?";
 
 "SHARE_BOOK_SEND_TO_MARVIN"                             = "Sende an Marvin";
@@ -911,7 +911,7 @@
 "SHARE_BOOK_ANNOTATION_MULTI_FORMAT_MENU_TIP"           = "Fotos und andere Anhänge sind nicht in allen Export-Formaten enthalten.";
 
 "SHARE_BOOK_VOCABULARY_TXT_TITLE"                       = "Vokabular";
-"SHARE_BOOK_VOCABULARY_TXT_TIP"                         = "Teile eine Text Datei mit allen in diesem Buch gesammelten Wörtern.";
+"SHARE_BOOK_VOCABULARY_TXT_TIP"                         = "Teile eine Text-Datei mit allen in diesem Buch gesammelten Wörtern.";
 
 "SHARE_BOOK_EPUB_EXPORT_EMPTY"                          = "Du hast keine Journal-Einträge oder Anmerkungen erstellt, die in ein EPUB-Journal exportiert werden könnten.";
 "SHARE_BOOK_EPUB_EXPORT_CONFIRM"                        = "Exportieren all deiner Journal-Einträge und Anmerkungen in ein EPUB-Journal? Das kann eine Weile dauern, wenn du viele zu exportierende Einträge hast."; // Placeholder.
@@ -944,7 +944,7 @@
 "EXTENDED_OPTIONS_SHARE_SHEET_TIP"                      = "Teilen-Schaltfläche für dieses Buch zeigen.";
 
 "EXTENDED_OPTIONS_NOTE"                                 = "Notiz";
-"EXTENDED_OPTIONS_NOTE_TIP"                             = "Hinzufügen oder editieren einer Notiz zu diesem Buch.";
+"EXTENDED_OPTIONS_NOTE_TIP"                             = "Notiz zu diesem Buch hinzufügen oder editieren.";
 
 "EXTENDED_OPTIONS_FINISHED_READING"                     = "Zu Ende gelesen";
 "EXTENDED_OPTIONS_FINISHED_READING_TIP"                 = "Markiere dieses Buch als gelesen und entferne es von der Leseliste.";
@@ -989,14 +989,14 @@
 "STATISTICS_ENTRIES"                                    = "Einträge und Anmerkungen";
 "STATISTICS_PHOTOS"                                     = "Fotos";
 "STATISTICS_TAGS"                                       = "Tags";
-"STATISTICS_LOGGED_TODAY"                               = "Einträge heute";
+"STATISTICS_LOGGED_TODAY"                               = "Logbuch-Einträge heute";
 "STATISTICS_LOGGED_PAST_5"                              = "Die letzten 5 Tage";
 "STATISTICS_DAYS_LOGGED"                                = "Tage mit Logbuch-Einträgen";
 "STATISTICS_LAST_SESSION"                               = "Dauer der letzten Lese-Session";
 "STATISTICS_READ_TODAY"                                 = "Heute gelesen";
 "STATISTICS_READ_PAST_5"                                = "Die letzten 5 Tage";
-"STATISTICS_BOOKS_SPACE"                                = "Speicherplatz (books)";
-"STATISTICS_FONTS_SPACE"                                = "Speicherplatz (fonts)";
+"STATISTICS_BOOKS_SPACE"                                = "Speicherplatz (Bücher)";
+"STATISTICS_FONTS_SPACE"                                = "Speicherplatz (Schriften)";
 "STATISTICS_DEEP_VIEW_SPACE"                            = "Speicherplatz (Deep View)";
 "STATISTICS_FREE_SPACE"                                 = "Freier Speicherplatz";
 
@@ -1048,10 +1048,10 @@
 // ********************************************************************************
 
 "COLLECTIONS_EDITOR_SCREEN_TITLE"                       = "Organisiere %lu Bücher"; // Placeholder!
-"COLLECTIONS_EDITOR_HEADER_CELL"                        = "Zugehörigkeit Sammlung";
+"COLLECTIONS_EDITOR_HEADER_CELL"                        = "Zugehörigkeit zu Sammlung";
 
 "COLLECTIONS_EDITOR_ADD_TITLE"                          = "Neue Sammlung";
-"COLLECTIONS_EDITOR_ADD_MESSAGE"                        = "Die ausgewählten Bücher werden einer neuen Sammlung hinzugefügt. Gib den Namen der Sammlung ein:";
+"COLLECTIONS_EDITOR_ADD_MESSAGE"                        = "Die ausgewählten Bücher werden zu einer neuen Sammlung hinzugefügt. Gib den Namen der Sammlung ein:";
 
 "COLLECTIONS_EDITOR_ADD_OR_REMOVE_MESSAGE"              = "Einige der Bücher sind bereits in dieser Sammlung, andere nicht. Was willst du machen?";
 "COLLECTIONS_EDITOR_ADD_ALL"                            = "Alle zur Sammlung hinzufügen";
@@ -1086,7 +1086,7 @@
 // The dropbox section.
 "GENERAL_SETTINGS_CELL_DROPBOX_HEADER"                  = "Dropbox";
 "GENERAL_SETTINGS_CELL_LINK_TO_DROPBOX"                 = "Mit Dropbox verbinden";
-"GENERAL_SETTINGS_CELL_DB_SEARCH_PATH"                  = "Download Suchpfad";
+"GENERAL_SETTINGS_CELL_DB_SEARCH_PATH"                  = "Download-Suchpfad";
 
 // The 'appearance' section.
 "GENERAL_SETTINGS_CELL_APPEARANCE_HEADER"               = "Darstellung";
@@ -1146,7 +1146,7 @@
 "GENERAL_SETTINGS_CELL_SKIP_LARGE_FILES"                = "Riesige Dateien überspringen";
 "GENERAL_SETTINGS_CELL_BACKUP_AND_RESTORE"              = "Sicherung und Wiederherstellung";
 
-"GENERAL_SETTINGS_CELL_SEND_DIAGNOSTICS_WARNING"        = "Diagnose-Daten enthalten alle Information über deine Bibliothek, Bücher, Anmerkungen und Einstellungen. Teile diese Informationen nur mit jemandem dem du vertraust. Fortfahren?";
+"GENERAL_SETTINGS_CELL_SEND_DIAGNOSTICS_WARNING"        = "Diagnose-Daten enthalten alle Information über deine Bibliothek, Bücher, Anmerkungen und Einstellungen. Teile diese Informationen nur mit jemandem, dem du vertraust. Fortfahren?";
 "GENERAL_SETTINGS_CELL_SKIP_LARGE_FILES_WARNING"        = "Die Aktivierung von sehr grossen Dateien kann Marvin instabil machen. Bist du sicher, dass du das tun willst?";
 
 // Confirm spotlight reset.
@@ -1159,20 +1159,20 @@
 "GENERAL_SETTINGS_CONFIRM_BOOK_CACHES_RESET"            = "Marvin verwaltet Caches automatisch, das Zurücksetzen wird zu einer Verlangsamung führen. Zurzeit verwendet: %@. Fortfahren?";
 
 // The menu and choices available for Dropbox 'download search path' setting.
-"GENERAL_SETTINGS_DROPBOX_SEARCH_PATH_TITLE"            = "Dropbox Suchpfad";
+"GENERAL_SETTINGS_DROPBOX_SEARCH_PATH_TITLE"            = "Dropbox-Suchpfad";
 "GENERAL_SETTINGS_DROPBOX_SEARCH_PATH_MESSAGE"          = "Wähle den Pfad aus, in dem Marvin nach Büchern in deiner Dropbox suchen soll. Leer lassen um überall zu suchen.";
 "GENERAL_SETTINGS_DB_SEARCH_PATH_CUSTOM"                = "Benutzerdefiniert";
 "GENERAL_SETTINGS_DB_SEARCH_PATH_EVERYWHERE"            = "Überall";
 
 // The menu and choices available for 'recently opened list' setting.
 "GENERAL_SETTINGS_RECENTLY_OPENED_TITLE"                = "Kürzlich geöffnete Bücher";
-"GENERAL_SETTINGS_RECENTLY_OPENED_TIP"                  = "Das ist die Anzahl der kürzlich geöffneten Bücher, die angezeigt wird, wenn du lange auf den ‘Marvin’ Knopf auf dem Home Bilschirm drückst.";
+"GENERAL_SETTINGS_RECENTLY_OPENED_TIP"                  = "Das ist die Anzahl der kürzlich geöffneten Bücher, die angezeigt wird, wenn du lange auf den ‘Marvin’ Knopf auf dem Home-Bildschirm drückst.";
 "GENERAL_SETTINGS_RECENTLY_OPENED_NONE"                 = "Keine";
 "GENERAL_SETTINGS_RECENTLY_OPENED_X_ITEMS"              = "%lu Einträge"; // Placehoders!!!
 
 // The menu and choices available for 'keyboard' setting.
 "GENERAL_SETTINGS_KEYBOARD_COLOUR_TITLE"                = "Tastatur-Farbe";
-"GENERAL_SETTINGS_KEYBOARD_COLOUR_TIP"                  = "Das ist die Tastatur-Farbe, die Marvin benutzt. Wenn du automatisch definierst, wird Marvin die Tastatur-Farbe auswählen, die am besten zum aktuellen Design passt.";
+"GENERAL_SETTINGS_KEYBOARD_COLOUR_TIP"                  = "Das ist die Tastatur-Farbe, die Marvin benutzt. Wenn du automatisch selektierst, wird Marvin die Tastatur-Farbe auswählen, die am besten zum aktuellen Farbschema passt.";
 
 // The menu and choices for 'quick launch panel size' setting.
 "GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_TITLE"        = "Breite Schnellstart-Bedienfeld";
@@ -1237,11 +1237,11 @@
 "GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_TITLE"     = "Löschen der existierenden Sicherung";
 "GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_BACKUP"    = "Sicherung löschen (%@)"; // %@ = file size.
 "GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_CLASSIC"   = "Classic-Sicherung löschen (%@)"; // %@ = file size.
-"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_TIP"       = "Wähle eine der Wiederherstellungsoptionen um einen existierenden Sicherung wiederherzustellen oder verwende iTunes, um Sicherungen zu lokalisieren und auf den Computer zu kopieren.";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_TIP"       = "Wähle eine der Wiederherstellungsoptionen, um eine existierende Sicherung wiederherzustellen oder verwende iTunes, um Sicherungen zu lokalisieren und auf den Computer zu kopieren.";
 
 // The menu and choices available for 'app badge' setting.
 "GENERAL_SETTINGS_APP_BADGE_TITLE"                      = "App-Kennzeichensymbol zeigt";
-"GENERAL_SETTINGS_APP_BADGE_TIP"                        = "Wähle was die Nummer des App-Kennzeichensymbol anzeigen soll. % Anzeigen zeigen deinen Fortschritt in dem Buch, das du gerade liest.";
+"GENERAL_SETTINGS_APP_BADGE_TIP"                        = "Wähle, was die Nummer des App-Kennzeichensymbol anzeigen soll. %-Anzeigen zeigen deinen Fortschritt in dem Buch, das du gerade liest.";
 "GENERAL_SETTINGS_APP_BADGE_OFF"                        = "Nichts";
 "GENERAL_SETTINGS_APP_BADGE_ALL_BOOKS"                  = "Anzahl Bücher";
 "GENERAL_SETTINGS_APP_BADGE_READING_LIST"               = "Leseliste";
@@ -1317,7 +1317,7 @@
 "COLOUR_SCHEMES_STONE_SCHEME"                           = "Stein";
 "COLOUR_SCHEMES_AUTOMATIC_SCHEME"                       = "Automatisch";
 
-"COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP_TITLE"               = "Alle Farbschemas aktivieren";
+"COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP_TITLE"               = "Alle Farbschemen aktivieren";
 "COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP"                     = "Für ein kleines Trinkgeld können zusätzliche Farbschemen freigeschaltet werden.";
 "COLOUR_SCHEMES_CONTINUE_AND_PREVIEW"                   = "Weiter und Vorschau";
 
@@ -1329,9 +1329,9 @@
 // Access from: Home > Settings button > General settings > Home screen menus
 // ********************************************************************************
 
-"MAIN_MENU_SETTINGS_SCREEN_TITLE"                       = "Home-Bildschirm-Menü Einträge";
+"MAIN_MENU_SETTINGS_SCREEN_TITLE"                       = "Home-Bildschirm Menü-Einträge";
 
-"MAIN_MENU_SETTINGS_TIP"                                = "Definiere welche Einträge im Home-Bildschim-Menü angezeigt werden sollen. Du kannst nicht benötigte Einträge ausblenden, um die Navigation zu vereinfachen.";
+"MAIN_MENU_SETTINGS_TIP"                                = "Definiere, welche Einträge im Home-Bildschim-Menü angezeigt werden sollen. Du kannst nicht benötigte Einträge ausblenden, um die Navigation zu vereinfachen.";
 
 "MAIN_MENU_SETTINGS_COLLECTIONS_SECTION"                = "Sektion Sammlungen und Listen";
 "MAIN_MENU_SETTINGS_VIEWING_MODE_SECTION"               = "Sektion Anzeigemodus";
@@ -1345,7 +1345,7 @@
 // Access from: Home > Settings button > General settings > Dictionary presets
 // ********************************************************************************
 
-"DICTIONARY_PRESETS_SCREEN_TITLE"                       = "Wörterbuch Voreinstellungen";
+"DICTIONARY_PRESETS_SCREEN_TITLE"                       = "Wörterbuch-Voreinstellungen";
 
 "CUSTOM_DICTIONARY_SYSTEM"                              = "Benutze System-Wörterbuch";
 "CUSTOM_DICTIONARY_LINGVO"                              = "ABBYY Lingvo (App)";
@@ -1422,7 +1422,7 @@
 "EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_TITLE"           = "Buch-Schnelldurchlauf";
 "EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_SECTION"         = "Innerhalb des Kapitel";
 "EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_CONTENTS"        = "Buch-Inhalt";
-"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_TIP"             = "Definiere ob die Schnelldurchlauf-Leiste unten auf der Seite innerhalb des Kapitels oder zwischen den Kapiteln vor- und zurückspulen soll. Du kannst zwischen den Modi wechseln, indem du lange auf die Schnelldurchlaufleiste drückst.";
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_TIP"             = "Definiere, ob die Schnelldurchlauf-Leiste unten auf der Seite innerhalb des Kapitels oder zwischen den Kapiteln vor- und zurückspulen soll. Du kannst zwischen den Modi wechseln, indem du lange auf die Schnelldurchlaufleiste drückst.";
 
 // The menu and choices available for 'page turn style' setting.
 "EPUB_SETTINGS_PAGE_TURN_STYLE_TITLE"                   = "Umblättern - Stil";
@@ -1528,7 +1528,7 @@
 // ********************************************************************************
 
 "HW_KEYBOARD_SETTINGS_SCREEN_TITLE"                     = "Hardware-Tastatur oder -Fernbedienung";
-"HW_KEYBOARD_SETTINGS_TIP"                              = "Konfiguriere Bluetooth-Tastatur und Fernbedienungs-Aktionen, während du dich in einem Buch befindest. Halte die Ctrl oder Cmd Taste gedrückt, um die aktuellen Tasten-Zuweisungen anzuzeigen.";
+"HW_KEYBOARD_SETTINGS_TIP"                              = "Konfiguriere Bluetooth-Tastatur- und Fernbedienungs-Aktionen, während du dich in einem Buch befindest. Halte die Ctrl- oder Cmd-Taste gedrückt, um die aktuellen Tasten-Zuweisungen anzuzeigen.";
 
 "HW_KEYBOARD_SETTINGS_PAGE_MODE_HEADER"                 = "Seiten Modus + Comics";
 "HW_KEYBOARD_SETTINGS_PAGE_NAV_ARROWS"                  = "← und → Pfeile";
@@ -1708,7 +1708,7 @@
 
 // Main menu of the screen.
 "CUSTOM_FONTS_MENU_EXPORT_TITLE"                        = "Teilen und Synchronisieren";
-"CUSTOM_FONTS_MENU_EXPORT_TIP"                          = "Kreiere und sende eine Datei an Marvin auf einem anderen Gerät, um benutzerdefinierte Schriften auzutauschen.";
+"CUSTOM_FONTS_MENU_EXPORT_TIP"                          = "Kreiere und sende eine Datei an Marvin auf einem anderen Gerät, um benutzerdefinierte Schriften auszutauschen.";
 "CUSTOM_FONTS_MENU_EXPORT"                              = "Exportiere benutzerdefinierte Schriften";
 
 // ********************************************************************************
@@ -1722,7 +1722,7 @@
 "CUSTOM_FONT_EDITOR_REGULAR_LABEL"                      = "Datei mit normaler Schrift:";
 "CUSTOM_FONT_EDITOR_ITALIC_LABEL"                       = "Datei mit kursiver Schrift :";
 "CUSTOM_FONT_EDITOR_BOLD_LABEL"                         = "Datei mit fetter Schrift:";
-"CUSTOM_FONT_EDITOR_BOLD_ITALIC_LABEL"                  = "Datei mit fetter-kursiver Schrift:";
+"CUSTOM_FONT_EDITOR_BOLD_ITALIC_LABEL"                  = "Datei mit fett-kursiver Schrift:";
 
 "CUSTOM_FONT_EDITOR_SELECT_FONT"                        = "Auswählen…";
 
@@ -1750,7 +1750,7 @@
 // Placeholder in search box.
 "DROPBOX_SEARCH_BOX_PLACEHOLDER"                        = "Hier tippen, um nach Dateiname zu suchen…";
 
-"DROPBOX_NO_FREE_SPACE_TO_DOWNLOAD"                     = "Du hast nicht genügend freien Speicherplatz um die ausgewählten Bücher herunterzuladen.";
+"DROPBOX_NO_FREE_SPACE_TO_DOWNLOAD"                     = "Du hast nicht genügend freien Speicherplatz, um die ausgewählten Bücher herunterzuladen.";
 
 // Multi download menu.
 "DROPBOX_MENU_MULTI_DOWNLOAD_TITLE"                     = "Multi-Download";
@@ -1792,7 +1792,7 @@
 "DROPBOX_DOWNLOAD_FAILED"                               = "%lu Datei(en) wurden erfolgreich imporiert und %lu Datei(en) ist/sind fehlgeschlagen. Möglicherweise wurde die Internet-Verbindung unterbrochen, Dropbox ist temporär nicht verfügbar oder die Dateien sind zu gross, beschädigt oder verschlüsselt.";
 
 // The alert shown to the user when 'download' everything' is chosen.
-"DROPBOX_DOWNLOAD_EVERYTHING_ALREADY_IN_LIBRARY"        = "Alle Bücher in deiner Dropbox existieren bereits in deiner Bibliothek.";
+"DROPBOX_DOWNLOAD_EVERYTHING_ALREADY_IN_LIBRARY"        = "Alle Bücher in deiner Dropbox sind bereits in deiner Bibliothek.";
 "DROPBOX_DOWNLOAD_CONFIRM_TITLE"                        = "%lu Datei(en) – %@"; // Placeholder - file count and file size.
 "DROPBOX_DOWNLOAD_CONFIRM_MESSAGE"                      = "Bist du sicher, dass du alle herunterladen willst? Das kann sehr lange dauern und viel Platz auf deinem Gerät belegen.";
 
@@ -1816,15 +1816,15 @@
 "OPDS_FETCHING_MORE_ENTRIES"                            = "Mehr Einträge abrufen…";
 
 // Error messages.
-"OPDS_ERROR_BAD_USER"                                   = "Der eingegebene Benutzername/Passwort ist für diesen Katalog nicht gültig oder Marvin unterstützt die Authentifizierungsmethode dieses Katalogs nicht.";
+"OPDS_ERROR_BAD_USER"                                   = "Der eingegebene Benutzername/das Passwort ist für diesen Katalog nicht gültig oder Marvin unterstützt die Authentifizierungsmethode dieses Katalogs nicht.";
 "OPDS_ERROR_BAD_ADDRESS"                                = "Die Download-Addresse (%@) ist ungültig.";
 "OPDS_ERROR_DOWNLOAD_FAILED_FOR_FEED"                   = "Kann den Feed nicht laden. Möglicherweise steht der Dienst nicht zur Verfügung oder du bist nicht mit dem Internet verbunden.";
 "OPDS_ERROR_DOWNLOAD_FAILED_FOR_BOOK"                   = "Buch kann nicht heruntergeladen werden. Möglicherweise steht der Dienst nicht zur Verfügung oder du bist nicht mit dem Internet verbunden.";
 "OPDS_ERROR_DOWNLOAD_FAILED_FOR_OPEN_SEARCH"            = "Suchpfad kann nicht gefunden werden. Möglicherweise steht der Dienst nicht zur Verfügung oder du bist nicht mit dem Internet verbunden.";
 "OPDS_NO_RESULTS_FOUND"                                 = "Kein Resultat gefunden.";
 
-"OPDS_MULTI_DOWNLOAD_NOT_SUPPORTED_FORMAT"              = "Mehrfach-Downloads sind nur für EPUB, CBR, und CBZ Bücher unterstützt. Bücher in anderen Formaten können einzeln heruntergeladen werden, wenn du dich nicht im Mehrfach-Download Modus befindest.";
-"OPDS_DOWNLOAD_NOT_SUPPORTED_FORMAT"                    = "Dieses Buch ist nicht als EPUB, CBR, or CBZ verfügbar. Drücke auf den Anzeigeknopf neben dem Buch, um zu sehen, in welchen Formate es verfügbar ist.";
+"OPDS_MULTI_DOWNLOAD_NOT_SUPPORTED_FORMAT"              = "Mehrfach-Downloads sind nur für EPUB-, CBR-, und CBZ-Bücher unterstützt. Bücher in anderen Formaten können einzeln heruntergeladen werden, wenn du dich nicht im Mehrfach-Download Modus befindest.";
+"OPDS_DOWNLOAD_NOT_SUPPORTED_FORMAT"                    = "Dieses Buch ist nicht als EPUB, CBR, or CBZ verfügbar. Drücke auf den Anzeigeknopf neben dem Buch, um zu sehen, in welchen Formaten es verfügbar ist.";
 
 // Multi download menu.
 "OPDS_MENU_MULTI_DOWNLOAD_TITLE"                        = "Mehrere Downloads";
@@ -1843,7 +1843,7 @@
 
 // Show book formats menu (tapping '...' button of a book).
 "OPDS_MENU_REVEAL_FORMATS_TITLE"                        = "Verfügbar als";
-"OPDS_MENU_REVEAL_FORMATS_TIP"                          = "EPUB, CBR, und CBZ Bücher werden deiner Bibliothek hinzugefügt. Marvin kann Bücher in anderen Formaten herunterladen und dann anbieten, sie in einer anderen App zu öffnen.";
+"OPDS_MENU_REVEAL_FORMATS_TIP"                          = "EPUB-, CBR-, und CBZ-Bücher werden deiner Bibliothek hinzugefügt. Marvin kann Bücher in anderen Formaten herunterladen und dann anbieten, sie in einer anderen App zu öffnen.";
 
 // Messages related to multiple download completion.
 "OPDS_MULTI_DOWNLOAD_SUCCESS"                           = "%lu Datei(en) heruntergeladen und zu deiner Bibliothek hinzugefügt.";
@@ -1866,7 +1866,7 @@
 
 // Export favourites menu.
 "OPDS_MENU_FAVOURITES_TITLE"                            = "Teilen und Synchronisieren";
-"OPDS_MENU_FAVOURITES_TIP"                              = "Kreiere und sende eine Datei an Marvin auf einem anderen Gerät um OPDS-Favoriten auszutauschen. Passwörter werden nicht exportiert – du musst sie nach dem Import auf einem anderen Gerät neu eingeben.";
+"OPDS_MENU_FAVOURITES_TIP"                              = "Kreiere und sende eine Datei an Marvin auf einem anderen Gerät, um OPDS-Favoriten auszutauschen. Passwörter werden nicht exportiert – du musst sie nach dem Import auf einem anderen Gerät neu eingeben.";
 "OPDS_MENU_FAVOURITES_EXPORT"                           = "Exportiere OPDS-Favoriten";
 
 // ********************************************************************************
@@ -1989,13 +1989,13 @@
 
 // Some error messages.
 "JOURNAL_SHARE_NOTHING_TO_SHARE"                        = "Es existieren keine Journal-Einträge oder Anmerkungen, die geteilt werden könnten.";
-"JOURNAL_NO_ENTRIES_FOR_MAP"                            = "Es existieren keine eingeblendeten Journal-Einträge oder Anmerkungen, die auf deiner Leseorte-Karte gezeigt werden könnten.";
+"JOURNAL_NO_ENTRIES_FOR_MAP"                            = "Es existieren keine eingeblendeten Journal-Einträge oder Anmerkungen, die auf deiner Leseorte-Karte angezeigt werden könnten.";
 "JOURNAL_NO_RECENT_BOOKS"                               = "Es existieren keine kürzlich geöffneten Bücher für Anmerkungen.";
 
 // Screen title.
 "JOURNAL_NO_ENTRIES"                                    = "Dein Journal ist leer";
-"JOURNAL_1_ENTRY"                                       = "1 Journal Eintrag";
-"JOURNAL_X_ENTRIES"                                     = "%@ Journal Einträge"; // Placeholder!
+"JOURNAL_1_ENTRY"                                       = "1 Journal-Eintrag";
+"JOURNAL_X_ENTRIES"                                     = "%@ Journal-Einträge"; // Placeholder!
 
 // Screen title.
 "JOURNAL_NO_ENTRIES_STARRED"                            = "Keine mit Stern markierten Einträge";
@@ -2029,17 +2029,17 @@
 "JOURNAL_EPUB_EXPORT_CONFIRM"                           = "Export aller eingeblendeten Einträge in ein EBPUB-Journal? Das kann eine Weile dauern, wenn du viele zu exportierende Einträge hast.";
 
 // Export CSV messages.
-"JOURNAL_CSV_EXPORT_EMPTY"                              = "Du hast keine eingeblendeten Einträge die in eine CSV-Datei exportiert werden könnten.";
+"JOURNAL_CSV_EXPORT_EMPTY"                              = "Du hast keine eingeblendeten Einträge, die in eine CSV-Datei exportiert werden könnten.";
 "JOURNAL_CSV_EXPORT_ERROR"                              = "Beim Kreieren der CSV-Datei aus deinem Journal ist ein Fehler aufgetreten. Überprüfe, ob du genügend freien Speicherplatz auf deinem Gerät hast.";
 "JOURNAL_CSV_EXPORT_CONFIRM"                            = "Export aller eingeblendeten Einträge in eine CSV-Datei? Das kann eine Weile dauern, wenn du viele zu exportierende Einträge hast.";
 
 // Export HTML messages.
-"JOURNAL_HTML_EXPORT_EMPTY"                             = "Du hast keine eingeblendeten Einträge die in eine HTML-Datei exportiert werden könnten..";
+"JOURNAL_HTML_EXPORT_EMPTY"                             = "Du hast keine eingeblendeten Einträge, die in eine HTML-Datei exportiert werden könnten..";
 "JOURNAL_HTML_EXPORT_ERROR"                             = "Beim Kreieren der HTML-Datei aus deinem Journal ist ein Fehler aufgetreten. Überprüfe, ob du genügend freien Speicherplatz auf deinem Gerät hast.";
 "JOURNAL_HTML_EXPORT_CONFIRM"                           = "Export aller eingeblendeten Einträge in eine HTML-Datei? Das kann eine Weile dauern, wenn du viele zu exportierende Einträge hast.";
 
 // Export PDF messages.
-"JOURNAL_PDF_EXPORT_EMPTY"                              = "Du hast keine eingeblendeten Einträge die in ein PDF-Journal exportiert werden könnten.";
+"JOURNAL_PDF_EXPORT_EMPTY"                              = "Du hast keine eingeblendeten Einträge, die in ein PDF-Journal exportiert werden könnten.";
 "JOURNAL_PDF_EXPORT_ERROR"                              = "Beim Kreieren des PDF aus deinem Journal ist ein Fehler aufgetreten. Überprüfe, ob du genügend freien Speicherplatz auf deinem Gerät hast.";
 "JOURNAL_PDF_NO_SPACE"                                  = "Du hast nicht genügend freien Speicherplatz, um ein PDF-Journal exportieren zu können. Marvin benötigt ungefähr %@ freien Speicherplatz um den Export vorzubereiten."; // Placeholder.
 "JOURNAL_PDF_EXPORT_CONFIRM"                            = "Export aller eingeblendeten Einträge in ein PDF-Journal (ungefähr %@)? Das kann eine Weile dauern, wenn du viele zu exportierende Einträge hast."; // Placeholder.
@@ -2117,7 +2117,7 @@
 "MAP_SCREEN_TITLE"                                      = "Deine Leseorte - Karte";
 
 "MAP_MENU_ZOOM_AND_FIT_TITLE"                           = "Zoomen und Grösse anpassen";
-"MAP_MENU_ZOOM_AND_FIT_TIP"                             = "Zoome die Karte auf deinen derzeitigen Standort oder zeige alle eingeblendeten Einträge auf dem Bildschirm.";
+"MAP_MENU_ZOOM_AND_FIT_TIP"                             = "Karte auf deinen derzeitigen Standort zoomen oder alle eingeblendeten Einträge auf dem Bildschirm anzeigen.";
 "MAP_MENU_ZOOM_AND_FIT_CURRENT_LOCATION"                = "Zeige derzeitigen Standort";
 "MAP_MENU_ZOOM_AND_FIT_FIT_ENTRIES"                     = "Zeige alle Einträge";
 
@@ -2260,7 +2260,7 @@
 
 "EPUB_BOOK_PROGRESS_UNNAMED_CHAPTER"                        = "Diese Sektion";
 "EPUB_BOOK_PROGRESS_PERCENT_CHAPTER"                        = "%.0f%% in %@"; // %.0f = percentage progress in current chapter, %@ chapter name.
-"EPUB_BOOK_PROGRESS_PERCENT_CHAPTER_WITH_AUTO_SCROLL"       = "%.0f%% in %@, %@ left"; // %.0f = percentage progress in current chapter, %@ = chapter name, %@ = time left to complete when auto scrolling.
+"EPUB_BOOK_PROGRESS_PERCENT_CHAPTER_WITH_AUTO_SCROLL"       = "%.0f%% in %@, %@ verbleibend"; // %.0f = percentage progress in current chapter, %@ = chapter name, %@ = time left to complete when auto scrolling.
 "EPUB_BOOK_PROGRESS_ABSOLUTE_CHAPTER"                       = "Seite %lu von %lu in %@"; // %lu = page in chapter, %lu = total pages in chapter, %@ chapter name.
 "EPUB_BOOK_PROGRESS_OVERALL"                                = "%.0f%% insgesamt"; // %.0f = percentage progress in overall.
 
@@ -2389,7 +2389,7 @@
 // This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
 // ********************************************************************************
 
-"SUMMARY_BUILDER_MESSAGE"                               = "Marvin erstellt eine Übersicht für die folgenden Namen: %@.\n\nWähle die Grösse der Übersicht, die du erstellen willst."; // %@ = name list, careful about new lines.
+"SUMMARY_BUILDER_MESSAGE"                               = "Marvin erstellt eine Übersicht für die folgenden Namen: %@.\n\nWähle die Grösse der Übersicht, die du erstellen möchtest."; // %@ = name list, careful about new lines.
 "SUMMARY_BUILDER_NORMAL_SIZE_BUTTON"                    = "Normal";
 "SUMMARY_BUILDER_SHORT_SIZE_BUTTON"                     = "Kurz";
 "SUMMARY_BUILDER_LONG_SIZE_BUTTON"                      = "Lang";
@@ -2454,7 +2454,7 @@
 "EPUB_PAGINATION_MENU_COLUMNS_HEADER"                   = "Mehrere Spalten";
 "EPUB_PAGINATION_MENU_COLUMNS_IN_PORTRAIT"              = "Im Hochformat: %lu"; // %lu = number of columns.
 "EPUB_PAGINATION_MENU_COLUMNS_IN_LANDSCAPE"             = "Im Querformat: %lu"; // %lu = number of columns.
-"EPUB_PAGINATION_MENU_COLUMNS_TIP"                      = "Mehrere Spalten ist nur im Einzelne Seiten Modus verfügbar. Marvin übersteuert möglicherweise die Spalten-Einstellung, wenn dein Gerät zu klein ist, um die gewählte Anzahl Spalten darzustellen.";
+"EPUB_PAGINATION_MENU_COLUMNS_TIP"                      = "Mehrere Spalten ist nur im Modus Einzelne Seiten verfügbar. Marvin übersteuert möglicherweise die Spalten-Einstellung, wenn dein Gerät zu klein ist, um die gewählte Anzahl Spalten darzustellen.";
 
 // ********************************************************************************
 // EPUB AUTO SCROLL SUB MENU (epubAutoScrollMenuViewController)
@@ -2465,9 +2465,9 @@
 "EPUB_AUTO_SCROLL_MENU_SPEED"                           = "Geschwindigkeit";
 "EPUB_AUTO_SCROLL_MENU_SPEED_VALUE"                     = "Geschwindigkeit: %.0f"; // %.0f == Percent speed.
 
-"EPUB_AUTO_SCROLL_SCRUB_TIP"                            = "Bewege im Schnelldurchlauf deinen Finger nach unten, um die Präzision zu erhöhen.\n\nDer automatische Bildlauf pausiert automatisch, wenn du bestimmte Aktionen ausführst – um fortzufahren kannst du die Seite leicht nach oben oder unten schubsen, wenn die Symbolleiste ausgeblendet ist.";
+"EPUB_AUTO_SCROLL_SCRUB_TIP"                            = "Bewege im Schnelldurchlauf deinen Finger nach unten, um die Präzision zu erhöhen.\n\nDer automatische Bildlauf pausiert automatisch, wenn du bestimmte Aktionen ausführst – um fortzufahren kannst du die Seite leicht nach oben oder unten schubsen, wenn die Symbolleisten ausgeblendet sind.";
 
-"EPUB_AUTO_SCROLL_WRONG_VIEWING_MODE"                   = "Automatischer Bildlauf funktioniert nur im vertikalen Bildlauf Modus. Gehe zu den Seiteneinstellungen und wechsle auf Vertikaler-Bildlauf.";
+"EPUB_AUTO_SCROLL_WRONG_VIEWING_MODE"                   = "Automatischer Bildlauf funktioniert nur im Modus Vertikaler-Bildlauf. Gehe zu den Seiteneinstellungen und wechsle auf Vertikaler-Bildlauf.";
 "EPUB_AUTO_SCROLL_SWITCH_TO_PAGE_SETTINGS"              = "Gehe zu den Seiteneinstellungen";
 
 // ********************************************************************************
@@ -2517,7 +2517,7 @@
 "EPUB_WARMTH_MENU_WARMTH_SLIGHTLY"                      = "Wenig";
 "EPUB_WARMTH_MENU_WARMTH_NORMAL"                        = "Normal";
 "EPUB_WARMTH_MENU_WARMTH_HOT"                           = "Heiss";
-"EPUB_WARMTH_MENU_WARMTH_TIP"                           = "Wärme reduziert die Intensität der Bildschirmdarstellung für ein komfortableres Lesen in der Nacht. Marvin speichert deine Einstellungen für zusätzliches Dimmen und Wärme für diese Voreinstellung.";
+"EPUB_WARMTH_MENU_WARMTH_TIP"                           = "Wärme reduziert die Intensität der Bildschirmdarstellung für ein komfortableres Lesen in der Nacht. Marvin speichert deine Einstellungen bezüglich zusätzlichem Dimmen und Wärme für diese Voreinstellung.";
 "EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_HEADER"          = "Schneller Design-Wechsel";
 "EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_INCLUDE"         = "Einbeziehen";
 "EPUB_WARMTH_MENU_FAST_THEME_SWITCHING_TIP"             = "Soll diese Voreinstellung beim Durchlaufen des schnellen Design-Wechsels miteinbezogen werden.";
@@ -2606,7 +2606,7 @@
 
 "EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_HEADER"        = "Export";
 "EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_INTERCHANGE"   = "Export Marvin → Marvin";
-"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_TIP"           = "Exportiere deine Lesezeichen in eine Date, die von Marvin auf einem anderen Gerät importiert werden kann.";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_TIP"           = "Exportiere deine Lesezeichen in eine Datei, die von Marvin auf einem anderen Gerät importiert werden kann.";
 
 "EPUB_BOOK_CONTENTS_BOOKMARKS_EXPORT_EMPTY"             = "Du hast noch keine Lesezeichen erstellt, die exportiert werden könnten.";
 "EPUB_BOOK_CONTENTS_BOOKMARKS_EXPORT_ERROR"             = "Beim Erstellen der Lesezeichen-Datei ist ein Fehler aufgetreten. Überprüfe, ob du genügend freien Speicherplatz auf deinem Gerät hast.";
@@ -2651,7 +2651,7 @@
 "CBX_BOOK_MAIN_MENU_SETTINGS_TIP"                       = "Anpassungen an Marvins Farbschema verändern auch die Farben der Benutzeroberfläche. Benutze das AA Menü in der Symbolleiste, um die Farbe des Seite und des Textes anzupassen.";
 
 "CBX_BOOK_MAIN_MENU_JOURNAL_TITLE"                      = "Journal und Anmerkungen";
-"CBX_BOOK_MAIN_MENU_JOURNAL_SHOW"                       = "Zeige Journal und Anmerkunge";
+"CBX_BOOK_MAIN_MENU_JOURNAL_SHOW"                       = "Zeige Journal und Anmerkungen";
 "CBX_BOOK_MAIN_MENU_JOURNAL_ADD_ENTRY"                  = "Eintrag hinzufügen";
 
 "CBX_BOOK_MAIN_MENU_WEB_LOOK_UP_TITLE"                  = "Nachschlagen";
@@ -2688,7 +2688,7 @@
 "CBX_LAYOUT_MENU_LAYOUT_HEADER"                         = "Layout (global)";
 "CBX_LAYOUT_MENU_LAYOUT_PINCH_TO_ZOOM"                  = "Aufziehen um zu zoomen";
 "CBX_LAYOUT_MENU_LAYOUT_TAP_ZIG_ZAG"                    = "Tippen für Zickzack";
-"CBX_LAYOUT_MENU_LAYOUT_TIP"                            = "‘Tippen für Zickzack’ funktioniert, wenn du eingezoomt bist: Tippe auf die Ränder, um im Zickzack durch die Zeite zu navigieren. Gesten-Einstellungen in den erweiterten CBx-Einstellungen werden berücksichtigt.";
+"CBX_LAYOUT_MENU_LAYOUT_TIP"                            = "‘Tippen für Zickzack’ funktioniert, wenn du eingezoomt bist: Tippe auf die Ränder, um im Zickzack durch die Seite zu navigieren. Gesten-Einstellungen in den erweiterten CBx-Einstellungen werden berücksichtigt.";
 
 "CBX_LAYOUT_MENU_FX_HEADER"                             = "Bild-Effekte (per Comic)";
 "CBX_LAYOUT_MENU_FX_TIP"                                = "Einige Effekte können die Umblätter-Geschwindigkeit beeinflussen und verkürzen die Batterie-Laufzeit.";
@@ -2750,7 +2750,7 @@
 "CBX_WARMTH_MENU_WARMTH_SLIGHTLY"                       = "Wenig";
 "CBX_WARMTH_MENU_WARMTH_NORMAL"                         = "Normal";
 "CBX_WARMTH_MENU_WARMTH_HOT"                            = "Heiss";
-"CBX_WARMTH_MENU_WARMTH_TIP"                            = "Wärme reduziert die Intensität der Bildschirmdarstellung für ein komfortableres Lesen in der Nacht. Marvin speichert deine Einstellungen für zusätzliches Dimmen und Wärme für diese Voreinstellung";
+"CBX_WARMTH_MENU_WARMTH_TIP"                            = "Wärme reduziert die Intensität der Bildschirmdarstellung für ein komfortableres Lesen in der Nacht. Marvin speichert deine Einstellungen bezüglich zusätzlichem Dimmen und Wärme für diese Voreinstellung";
 
 "CBX_WARMTH_MENU_FAST_THEME_SWITCHING_HEADER"           = "Schneller Design-Wechsel";
 "CBX_WARMTH_MENU_FAST_THEME_SWITCHING_INCLUDE"          = "Einbeziehen";
@@ -2877,7 +2877,7 @@ MARVIN_BACKUP_CONFIRM_4G"                               = "Deine Sicherung wird 
 
 "MARVIN_BACKUP_NO_SPACE"                                = "Du hast nicht genügend freien Speicherplatz. Marvin benötigt %@ und du hast %@ freien Speicherplatz."; // %@ = backup size, %@ = free space.
 
-"MARVIN_BACKUP_ERROR"                                   = "Verzeihung, beim Erstellen des Marvin-Sicherung ist ein Fehler aufgetreten (%lu)."; // %lu = error code.
+"MARVIN_BACKUP_ERROR"                                   = "Verzeihung, beim Erstellen der Marvin-Sicherung ist ein Fehler aufgetreten (%lu)."; // %lu = error code.
 
 "MARVIN_BACKUP_DELETE"                                  = "Sicherung löschen?";
 
