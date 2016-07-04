@@ -1020,6 +1020,7 @@
 "ACTIONS_DELETE_CONFIRM_X"                              = "Are you sure you want to delete %lu books? Your annotations will not be deleted."; // Placeholder!
 
 "ACTION_CONFIRM_FOR_MULTIPLE"                           = "Apply this action to %lu books?"; // Placeholder.
+"ACTION_CONFIRM_FOR_REWIND"                             = "Really rewind this book?";
 
 "ACTIONS_ADD_TO_READING_LIST"                           = "Add to reading list";
 "ACTIONS_REMOVE_FROM_READING_LIST"                      = "Remove from reading list";
@@ -1094,6 +1095,7 @@
 "GENERAL_SETTINGS_CELL_LONG_LIST_SCRUBBING"             = "Long list scrubber";
 "GENERAL_SETTINGS_CELL_SQUARE_COVERS"                   = "Square list covers";
 "GENERAL_SETTINGS_CELL_LEFT_ALIGNED_MENUS"              = "Left aligned menus";
+"GENERAL_SETTINGS_CELL_READ_UNREAD_BADGES"              = "Read/unread badges";
 "GENERAL_SETTINGS_CELL_KEYBOARD"                        = "Keyboard";
 "GENERAL_SETTINGS_CELL_QUICK_LAUNCH_PANEL_SIZE"         = "Quick launch panel";
 "GENERAL_SETTINGS_CELL_MAIN_MENU_ITEMS"                 = "Home screen menus";
@@ -2242,7 +2244,7 @@
 "EPUB_BOOK_EDIT_MENU_CUSTOM_BUTTON"                         = "Custom";
 
 "EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_HEADER"                = "Custom text commands";
-"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_TIP"                   = "You can edit and reorder custom text menu commands from the EPUB settings screen.";
+"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_TIP"                   = "If you prefer custom commands to show inline with the main menu, go to Settings → EPUB → Custom commands → Show inline.";
 
 "EPUB_BOOK_TEXT_SHOT_CREDIT"                                = "via marvinapp.com";
 "EPUB_BOOK_SCREEN_SHOT_CREDIT"                              = "via marvinapp.com";
@@ -2435,7 +2437,7 @@
 "EPUB_LAYOUT_MENU_RESET_CONFIRM"                        = "This will reset all the layout settings in this page to defaults. Continue?";
 "EPUB_LAYOUT_MENU_SLIDE_TO_RESET"                       = "You can slide labels with ± buttons to set default.";
 "EPUB_LAYOUT_MENU_APPLY_TO_ALL_OPENED_BOOKS"            = "Apply to all opened books";
-"EPUB_LAYOUT_MENU_APPLY_TO_ALL_OPENED_BOOKS_CONFIRM"    = "Apply current layout and fonts to all opened books? (some tweaking might still be necessary)";
+"EPUB_LAYOUT_MENU_APPLY_TO_ALL_OPENED_BOOKS_CONFIRM"    = "Apply current layout and fonts to all opened books? (some tweaking may still be necessary)";
 
 // ********************************************************************************
 // EPUB PAGINATION SUB MENU (epubPaginationMenuViewController)
@@ -2825,6 +2827,11 @@
 "IAP_AMAZING_TIP_PURCHASED"                             = "You’re amazing!";
 "IAP_INCREDIBLE_TIP_PURCHASED"                          = "You’re incredible!";
 "IAP_FABULOUS_TIP_PURCHASED"                            = "You’re fabulous!";
+
+"IAP_GENEROUS_TIP_TIP"                                  = "Theme pack 1: Steel colour scheme.";
+"IAP_AMAZING_TIP_TIP"                                   = "Theme pack 2: Steel, silver, and caramel colour schemes.";
+"IAP_INCREDIBLE_TIP_TIP"                                = "Theme pack 3: Steel, silver, caramel, camo, plum, and chocolate colour schemes.";
+"IAP_FABULOUS_TIP_TIP"                                  = "Theme pack 4: All current and future colour schemes.";
 
 "IAP_GENEROUS_TIP_ALREADY_PURCHASED"                    = "You already left a generous tip. Thank you!";
 "IAP_AMAZING_TIP_ALREADY_PURCHASED"                     = "You already left an amazing tip. Thank you!";
