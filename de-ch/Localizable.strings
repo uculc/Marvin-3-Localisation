@@ -1020,6 +1020,7 @@
 "ACTIONS_DELETE_CONFIRM_X"                              = "Bist du sicher, dass du %lu Bücher löschen willst? Deine Anmerkungen werden nicht gelöscht."; // Placeholder!
 
 "ACTION_CONFIRM_FOR_MULTIPLE"                           = "Diese Aktion für %lu Bücher ausführen?"; // Placeholder.
+"ACTION_CONFIRM_FOR_REWIND"                             = "Wirklich zurück zum Anfang dieses Buches?";
 
 "ACTIONS_ADD_TO_READING_LIST"                           = "Zur Leseliste hinzufügen";
 "ACTIONS_REMOVE_FROM_READING_LIST"                      = "Aus der Leseliste entfernen";
@@ -1094,6 +1095,7 @@
 "GENERAL_SETTINGS_CELL_LONG_LIST_SCRUBBING"             = "Schnelldurchlauf für lange Listen";
 "GENERAL_SETTINGS_CELL_SQUARE_COVERS"                   = "Quadratische Titelbilder in Listen";
 "GENERAL_SETTINGS_CELL_LEFT_ALIGNED_MENUS"              = "Menüs links ausrichten";
+"GENERAL_SETTINGS_CELL_READ_UNREAD_BADGES"              = "Gelesen/Ungelesen Markierungen";
 "GENERAL_SETTINGS_CELL_KEYBOARD"                        = "Tastatur";
 "GENERAL_SETTINGS_CELL_QUICK_LAUNCH_PANEL_SIZE"         = "Schnellstart-Bedienfeld";
 "GENERAL_SETTINGS_CELL_MAIN_MENU_ITEMS"                 = "Home-Bildschirm-Menüs";
@@ -2242,7 +2244,7 @@
 "EPUB_BOOK_EDIT_MENU_CUSTOM_BUTTON"                         = "Benutzerdefiniert";
 
 "EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_HEADER"                = "Benutzerdefinierte Kommandos";
-"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_TIP"                   = "Du kannst benutzerdefinierte Text-Menü-Kommandos in den EPUB Einstellungen anpassen oder anders anordnen.";
+"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_TIP"                   = "Wenn du benutzerdefinierte Text-Menü-Kommandos im Menü einbetten möchtest, gehe in die Einstellungen → EPUB → Benutzerdefinierte Kommandos → Eingebettete benutzerdefinierte Kommandos.";
 
 "EPUB_BOOK_TEXT_SHOT_CREDIT"                                = "via marvinapp.com";
 "EPUB_BOOK_SCREEN_SHOT_CREDIT"                              = "via marvinapp.com";
@@ -2825,6 +2827,11 @@
 "IAP_AMAZING_TIP_PURCHASED"                             = "Du bist beeindruckend!";
 "IAP_INCREDIBLE_TIP_PURCHASED"                          = "Du bist unglaublich!";
 "IAP_FABULOUS_TIP_PURCHASED"                            = "Du bist sagenhaft!";
+
+"IAP_GENEROUS_TIP_TIP"                                  = "Themen-Paket 1: Farbschema Stahl.";
+"IAP_AMAZING_TIP_TIP"                                   = "Themen-Paket 2: Farbschemen Stahl, Silber und Caramel.";
+"IAP_INCREDIBLE_TIP_TIP"                                = "Themen-Paket 3: Farbschemen Stahl, Silber, Caramel, Camouflage, Pflaume und Schokolade.";
+"IAP_FABULOUS_TIP_TIP"                                  = "Themen-Paket 4: Alle aktuell und zukünftig erhältlichen Farbschemen.";
 
 "IAP_GENEROUS_TIP_ALREADY_PURCHASED"                    = "Du hast bereits ein grosszügiges Trinkgeld hinterlassen. Herzlichen Dank!";
 "IAP_AMAZING_TIP_ALREADY_PURCHASED"                     = "Du hast bereits ein beeindruckendes Trinkgeld hinterlassen. Herzlichen Dank!";
